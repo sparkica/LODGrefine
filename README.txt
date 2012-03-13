@@ -81,7 +81,7 @@ Main functionalities:  Extending data with data from DBpedia,
 extracting entities from full text via Zemanta API
 
 Contributors:
-Mateja Verlic <mateja.verlic@zemanta.com>
+Mateja Verlic <mateja.verlic@gmail.com>
 
 More information at: http://code.zemanta.com/sparkica/
 
