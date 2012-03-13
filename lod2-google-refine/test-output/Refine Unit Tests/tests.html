@@ -1,0 +1,939 @@
+<html>
+<head>
+<title>TestNG:  tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>172/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Feb 13 10:19:32 CET 2012</td>
+</tr>
+<tr><td>Total time:</td><td>2 seconds (2451 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td>broken </td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.google.refine.tests.importers.RdfTripleImporterTests.CanParseMultiLineMultiPredicatesTriple()'><b>CanParseMultiLineMultiPredicatesTriple</b><br>Test class: com.google.refine.tests.importers.RdfTripleImporterTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.RdfTripleImporterTests@7aec8784</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.RdfTripleImporterTests.CanParseMultiLineTriple()'><b>CanParseMultiLineTriple</b><br>Test class: com.google.refine.tests.importers.RdfTripleImporterTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.RdfTripleImporterTests@7aec8784</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.RdfTripleImporterTests.CanParseTripleWithValue()'><b>CanParseTripleWithValue</b><br>Test class: com.google.refine.tests.importers.RdfTripleImporterTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.RdfTripleImporterTests@7aec8784</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.JsonImporterTests.EnsureJSONParserHandlesgetLocalNameCorrectly()'><b>EnsureJSONParserHandlesgetLocalNameCorrectly</b><br>Test class: com.google.refine.tests.importers.JsonImporterTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.JsonImporterTests@a7981d5</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.XmlImportUtilitiesTests.addCellTest()'><b>addCellTest</b><br>Test class: com.google.refine.tests.importers.XmlImportUtilitiesTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.ImporterUtilitiesTests.appendColumnName()'><b>appendColumnName</b><br>Test class: com.google.refine.tests.importers.ImporterUtilitiesTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.ImporterUtilitiesTests@2e19fc25</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.ImporterUtilitiesTests.appendColumnNameFromMultipleRows()'><b>appendColumnNameFromMultipleRows</b><br>Test class: com.google.refine.tests.importers.ImporterUtilitiesTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.ImporterUtilitiesTests@2e19fc25</td></tr>
+<tr>
+<td title='com.google.refine.tests.model.RowTests.blankCell()'><b>blankCell</b><br>Test class: com.google.refine.tests.model.RowTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.model.RowTests@3b6752c9</td></tr>
+<tr>
+<td title='com.google.refine.tests.history.HistoryTests.canAddEntry()'><b>canAddEntry</b><br>Test class: com.google.refine.tests.history.HistoryTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.history.HistoryTests@20dccfab</td></tr>
+<tr>
+<td title='com.google.refine.tests.ProjectManagerTests.canEnsureProjectSave()'><b>canEnsureProjectSave</b><br>Test class: com.google.refine.tests.ProjectManagerTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.ProjectManagerTests@62c4afc4</td></tr>
+<tr>
+<td title='com.google.refine.tests.ProjectManagerTests.canFlushFromCache()'><b>canFlushFromCache</b><br>Test class: com.google.refine.tests.ProjectManagerTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.ProjectManagerTests@62c4afc4</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.XmlImporterTests.canParseDeeplyNestedSample()'><b>canParseDeeplyNestedSample</b><br>Test class: com.google.refine.tests.importers.XmlImporterTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.XmlImporterTests@4762d950</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.JsonImporterTests.canParseSample()'><b>canParseSample</b><br>Test class: com.google.refine.tests.importers.JsonImporterTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.JsonImporterTests@a7981d5</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.XmlImporterTests.canParseSample()'><b>canParseSample</b><br>Test class: com.google.refine.tests.importers.XmlImporterTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.XmlImporterTests@4762d950</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.JsonImporterTests.canParseSampleWithDuplicateNestedElements()'><b>canParseSampleWithDuplicateNestedElements</b><br>Test class: com.google.refine.tests.importers.JsonImporterTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.JsonImporterTests@a7981d5</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.XmlImporterTests.canParseSampleWithDuplicateNestedElements()'><b>canParseSampleWithDuplicateNestedElements</b><br>Test class: com.google.refine.tests.importers.XmlImporterTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.XmlImporterTests@4762d950</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.XmlImporterTests.canParseSampleWithMixedElement()'><b>canParseSampleWithMixedElement</b><br>Test class: com.google.refine.tests.importers.XmlImporterTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.XmlImporterTests@4762d950</td></tr>
+<tr>
+<td title='com.google.refine.tests.ProjectManagerTests.canRegisterProject()'><b>canRegisterProject</b><br>Test class: com.google.refine.tests.ProjectManagerTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.ProjectManagerTests@62c4afc4</td></tr>
+<tr>
+<td title='com.google.refine.tests.ProjectManagerTests.canSaveAllModified()'><b>canSaveAllModified</b><br>Test class: com.google.refine.tests.ProjectManagerTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.ProjectManagerTests@62c4afc4</td></tr>
+<tr>
+<td title='com.google.refine.tests.ProjectManagerTests.canSaveSomeModified()'><b>canSaveSomeModified</b><br>Test class: com.google.refine.tests.ProjectManagerTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.ProjectManagerTests@62c4afc4</td></tr>
+<tr>
+<td title='com.google.refine.tests.ProjectManagerTests.cannotSaveWhenBusy()'><b>cannotSaveWhenBusy</b><br>Test class: com.google.refine.tests.ProjectManagerTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.ProjectManagerTests@62c4afc4</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.XmlImportUtilitiesTests.createColumnsFromImportTest()'><b>createColumnsFromImportTest</b><br>Test class: com.google.refine.tests.importers.XmlImportUtilitiesTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.XmlImportUtilitiesTests.detectPathFromTagWithNestedElementXml()'><b>detectPathFromTagWithNestedElementXml</b><br>Test class: com.google.refine.tests.importers.XmlImportUtilitiesTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.XmlImportUtilitiesTests.detectPathFromTagXmlTest()'><b>detectPathFromTagXmlTest</b><br>Test class: com.google.refine.tests.importers.XmlImportUtilitiesTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.XmlImportUtilitiesTests.detectRecordElementCanHandleWithNestedElementsXml()'><b>detectRecordElementCanHandleWithNestedElementsXml</b><br>Test class: com.google.refine.tests.importers.XmlImportUtilitiesTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.XmlImportUtilitiesTests.detectRecordElementIsNullForUnfoundTagXml()'><b>detectRecordElementIsNullForUnfoundTagXml</b><br>Test class: com.google.refine.tests.importers.XmlImportUtilitiesTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.XmlImportUtilitiesTests.detectRecordElementRegressionJsonTest()'><b>detectRecordElementRegressionJsonTest</b><br>Test class: com.google.refine.tests.importers.XmlImportUtilitiesTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.XmlImportUtilitiesTests.detectRecordElementRegressionXmlTest()'><b>detectRecordElementRegressionXmlTest</b><br>Test class: com.google.refine.tests.importers.XmlImportUtilitiesTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.XmlImportUtilitiesTests.detectRecordElementXmlTest()'><b>detectRecordElementXmlTest</b><br>Test class: com.google.refine.tests.importers.XmlImportUtilitiesTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468</td></tr>
+<tr>
+<td title='com.google.refine.tests.RefineServletTests.doDeleteRegressionTest()'><b>doDeleteRegressionTest</b><br>Test class: com.google.refine.tests.RefineServletTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.RefineServletTests@7c6c2896</td></tr>
+<tr>
+<td title='com.google.refine.tests.RefineServletTests.doDeleteReturns404WhenCommandNotFound()'><b>doDeleteReturns404WhenCommandNotFound</b><br>Test class: com.google.refine.tests.RefineServletTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.RefineServletTests@7c6c2896</td></tr>
+<tr>
+<td title='com.google.refine.tests.RefineServletTests.doGetRegressionTest()'><b>doGetRegressionTest</b><br>Test class: com.google.refine.tests.RefineServletTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.RefineServletTests@7c6c2896</td></tr>
+<tr>
+<td title='com.google.refine.tests.RefineServletTests.doGetReturnsError404WhenCommandNotFound()'><b>doGetReturnsError404WhenCommandNotFound</b><br>Test class: com.google.refine.tests.RefineServletTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.RefineServletTests@7c6c2896</td></tr>
+<tr>
+<td title='com.google.refine.tests.commands.util.CancelProcessesCommandTests.doPostCatchesExceptionFromWriter()'><b>doPostCatchesExceptionFromWriter</b><br>Test class: com.google.refine.tests.commands.util.CancelProcessesCommandTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.commands.util.CancelProcessesCommandTests@4b8e899c</td></tr>
+<tr>
+<td title='com.google.refine.tests.commands.util.CancelProcessesCommandTests.doPostFailsThrowsWithNullParameters()'><b>doPostFailsThrowsWithNullParameters</b><br>Test class: com.google.refine.tests.commands.util.CancelProcessesCommandTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.commands.util.CancelProcessesCommandTests@4b8e899c</td></tr>
+<tr>
+<td title='com.google.refine.tests.RefineServletTests.doPostRegressionTest()'><b>doPostRegressionTest</b><br>Test class: com.google.refine.tests.RefineServletTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.RefineServletTests@7c6c2896</td></tr>
+<tr>
+<td title='com.google.refine.tests.commands.util.CancelProcessesCommandTests.doPostRegressionTest()'><b>doPostRegressionTest</b><br>Test class: com.google.refine.tests.commands.util.CancelProcessesCommandTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.commands.util.CancelProcessesCommandTests@4b8e899c</td></tr>
+<tr>
+<td title='com.google.refine.tests.RefineServletTests.doPostReturns404WhenCommandNotFound()'><b>doPostReturns404WhenCommandNotFound</b><br>Test class: com.google.refine.tests.RefineServletTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.RefineServletTests@7c6c2896</td></tr>
+<tr>
+<td title='com.google.refine.tests.commands.util.CancelProcessesCommandTests.doPostThrowsIfCommand_getProjectReturnsNull()'><b>doPostThrowsIfCommand_getProjectReturnsNull</b><br>Test class: com.google.refine.tests.commands.util.CancelProcessesCommandTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.commands.util.CancelProcessesCommandTests@4b8e899c</td></tr>
+<tr>
+<td title='com.google.refine.tests.RefineServletTests.doPutRegressionTest()'><b>doPutRegressionTest</b><br>Test class: com.google.refine.tests.RefineServletTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.RefineServletTests@7c6c2896</td></tr>
+<tr>
+<td title='com.google.refine.tests.RefineServletTests.doPutReturns404WhenCommandNotFound()'><b>doPutReturns404WhenCommandNotFound</b><br>Test class: com.google.refine.tests.RefineServletTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.RefineServletTests@7c6c2896</td></tr>
+<tr>
+<td title='com.google.refine.tests.model.RowTests.duplicateRow()'><b>duplicateRow</b><br>Test class: com.google.refine.tests.model.RowTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.model.RowTests@3b6752c9</td></tr>
+<tr>
+<td title='com.google.refine.tests.model.RowTests.emptyRow()'><b>emptyRow</b><br>Test class: com.google.refine.tests.model.RowTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.model.RowTests@3b6752c9</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.ImporterUtilitiesTests.ensureColumnsInRowExist()'><b>ensureColumnsInRowExist</b><br>Test class: com.google.refine.tests.importers.ImporterUtilitiesTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.ImporterUtilitiesTests@2e19fc25</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.ImporterUtilitiesTests.ensureColumnsInRowExistDoesExpand()'><b>ensureColumnsInRowExistDoesExpand</b><br>Test class: com.google.refine.tests.importers.ImporterUtilitiesTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.ImporterUtilitiesTests@2e19fc25</td></tr>
+<tr>
+<td title='com.google.refine.tests.util.ParsingUtilitiesTests.evaluateJsonStringToObjectRegressionTest()'><b>evaluateJsonStringToObjectRegressionTest</b><br>Test class: com.google.refine.tests.util.ParsingUtilitiesTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.util.ParsingUtilitiesTests@2f3acc52</td></tr>
+<tr>
+<td title='com.google.refine.tests.util.ParsingUtilitiesTests.evaluateJsonStringToObjectWithMalformedParameters()'><b>evaluateJsonStringToObjectWithMalformedParameters</b><br>Test class: com.google.refine.tests.util.ParsingUtilitiesTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.util.ParsingUtilitiesTests@2f3acc52</td></tr>
+<tr>
+<td title='com.google.refine.tests.util.ParsingUtilitiesTests.evaluateJsonStringToObjectWithNullParameters()'><b>evaluateJsonStringToObjectWithNullParameters</b><br>Test class: com.google.refine.tests.util.ParsingUtilitiesTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.util.ParsingUtilitiesTests@2f3acc52</td></tr>
+<tr>
+<td title='com.google.refine.tests.exporters.CsvExporterTests.exportCsvWithComma()'><b>exportCsvWithComma</b><br>Test class: com.google.refine.tests.exporters.CsvExporterTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.exporters.CsvExporterTests@5eef9f84</td></tr>
+<tr>
+<td title='com.google.refine.tests.exporters.CsvExporterTests.exportCsvWithEmptyCells()'><b>exportCsvWithEmptyCells</b><br>Test class: com.google.refine.tests.exporters.CsvExporterTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.exporters.CsvExporterTests@5eef9f84</td></tr>
+<tr>
+<td title='com.google.refine.tests.exporters.CsvExporterTests.exportCsvWithLineBreaks()'><b>exportCsvWithLineBreaks</b><br>Test class: com.google.refine.tests.exporters.CsvExporterTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.exporters.CsvExporterTests@5eef9f84</td></tr>
+<tr>
+<td title='com.google.refine.tests.exporters.CsvExporterTests.exportCsvWithQuote()'><b>exportCsvWithQuote</b><br>Test class: com.google.refine.tests.exporters.CsvExporterTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.exporters.CsvExporterTests@5eef9f84</td></tr>
+<tr>
+<td title='com.google.refine.tests.exporters.CsvExporterTests.exportDateColumns()'><b>exportDateColumns</b><br>Test class: com.google.refine.tests.exporters.CsvExporterTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.exporters.CsvExporterTests@5eef9f84</td></tr>
+<tr>
+<td title='com.google.refine.tests.exporters.TemplatingExporterTests.exportEmptyTemplate()'><b>exportEmptyTemplate</b><br>Test class: com.google.refine.tests.exporters.TemplatingExporterTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.exporters.TemplatingExporterTests@59c958af</td></tr>
+<tr>
+<td title='com.google.refine.tests.exporters.HtmlExporterTests.exportHtmlTableWithEmptyCells()'><b>exportHtmlTableWithEmptyCells</b><br>Test class: com.google.refine.tests.exporters.HtmlExporterTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.exporters.HtmlExporterTests@67e2c841</td></tr>
+<tr>
+<td title='com.google.refine.tests.exporters.CsvExporterTests.exportSimpleCsv()'><b>exportSimpleCsv</b><br>Test class: com.google.refine.tests.exporters.CsvExporterTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.exporters.CsvExporterTests@5eef9f84</td></tr>
+<tr>
+<td title='com.google.refine.tests.exporters.CsvExporterTests.exportSimpleCsvNoHeader()'><b>exportSimpleCsvNoHeader</b><br>Test class: com.google.refine.tests.exporters.CsvExporterTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.exporters.CsvExporterTests@5eef9f84</td></tr>
+<tr>
+<td title='com.google.refine.tests.exporters.HtmlExporterTests.exportSimpleHtmlTable()'><b>exportSimpleHtmlTable</b><br>Test class: com.google.refine.tests.exporters.HtmlExporterTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.exporters.HtmlExporterTests@67e2c841</td></tr>
+<tr>
+<td title='com.google.refine.tests.exporters.TemplatingExporterTests.exportSimpleTemplate()'><b>exportSimpleTemplate</b><br>Test class: com.google.refine.tests.exporters.TemplatingExporterTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.exporters.TemplatingExporterTests@59c958af</td></tr>
+<tr>
+<td title='com.google.refine.tests.exporters.TsvExporterTests.exportSimpleTsv()'><b>exportSimpleTsv</b><br>Test class: com.google.refine.tests.exporters.TsvExporterTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.exporters.TsvExporterTests@45d1c3cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.exporters.TsvExporterTests.exportSimpleTsvNoHeader()'><b>exportSimpleTsvNoHeader</b><br>Test class: com.google.refine.tests.exporters.TsvExporterTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.exporters.TsvExporterTests@45d1c3cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.exporters.XlsExporterTests.exportSimpleXls()'><b>exportSimpleXls</b><br>Test class: com.google.refine.tests.exporters.XlsExporterTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.exporters.XlsExporterTests@3eb52a28</td></tr>
+<tr>
+<td title='com.google.refine.tests.exporters.TemplatingExporterTests.exportTemplateWithEmptyCells()'><b>exportTemplateWithEmptyCells</b><br>Test class: com.google.refine.tests.exporters.TemplatingExporterTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.exporters.TemplatingExporterTests@59c958af</td></tr>
+<tr>
+<td title='com.google.refine.tests.exporters.TemplatingExporterTests.exportTemplateWithLimit()'><b>exportTemplateWithLimit</b><br>Test class: com.google.refine.tests.exporters.TemplatingExporterTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.exporters.TemplatingExporterTests@59c958af</td></tr>
+<tr>
+<td title='com.google.refine.tests.exporters.TsvExporterTests.exportTsvWithComma()'><b>exportTsvWithComma</b><br>Test class: com.google.refine.tests.exporters.TsvExporterTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.exporters.TsvExporterTests@45d1c3cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.exporters.TsvExporterTests.exportTsvWithEmptyCells()'><b>exportTsvWithEmptyCells</b><br>Test class: com.google.refine.tests.exporters.TsvExporterTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.exporters.TsvExporterTests@45d1c3cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.exporters.TsvExporterTests.exportTsvWithLineBreaks()'><b>exportTsvWithLineBreaks</b><br>Test class: com.google.refine.tests.exporters.TsvExporterTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.exporters.TsvExporterTests@45d1c3cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.exporters.TsvExporterTests.exportTsvWithQuote()'><b>exportTsvWithQuote</b><br>Test class: com.google.refine.tests.exporters.TsvExporterTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.exporters.TsvExporterTests@45d1c3cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.XmlImportUtilitiesTests.findRecordTestXml()'><b>findRecordTestXml</b><br>Test class: com.google.refine.tests.importers.XmlImportUtilitiesTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468</td></tr>
+<tr>
+<td title='com.google.refine.tests.RefineServletTests.getCommandNameHandlesBadCommandName()'><b>getCommandNameHandlesBadCommandName</b><br>Test class: com.google.refine.tests.RefineServletTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.RefineServletTests@7c6c2896</td></tr>
+<tr>
+<td title='com.google.refine.tests.commands.CommandTests.getEngineConfigRegressionTest()'><b>getEngineConfigRegressionTest</b><br>Test class: com.google.refine.tests.commands.CommandTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.commands.CommandTests@31dd7736</td></tr>
+<tr>
+<td title='com.google.refine.tests.commands.CommandTests.getEngineConfigReturnsNullWithEmptyOrBadParameterValue()'><b>getEngineConfigReturnsNullWithEmptyOrBadParameterValue</b><br>Test class: com.google.refine.tests.commands.CommandTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.commands.CommandTests@31dd7736</td></tr>
+<tr>
+<td title='com.google.refine.tests.commands.CommandTests.getEngineConfigReturnsNullWithNullEngineParameter()'><b>getEngineConfigReturnsNullWithNullEngineParameter</b><br>Test class: com.google.refine.tests.commands.CommandTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.commands.CommandTests@31dd7736</td></tr>
+<tr>
+<td title='com.google.refine.tests.commands.CommandTests.getEngineConfigThrowsWithNullParameter()'><b>getEngineConfigThrowsWithNullParameter</b><br>Test class: com.google.refine.tests.commands.CommandTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.commands.CommandTests@31dd7736</td></tr>
+<tr>
+<td title='com.google.refine.tests.commands.CommandTests.getEngineRegressionTest()'><b>getEngineRegressionTest</b><br>Test class: com.google.refine.tests.commands.CommandTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.commands.CommandTests@31dd7736</td></tr>
+<tr>
+<td title='com.google.refine.tests.commands.CommandTests.getEngineThrowsOnNullParameter()'><b>getEngineThrowsOnNullParameter</b><br>Test class: com.google.refine.tests.commands.CommandTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.commands.CommandTests@31dd7736</td></tr>
+<tr>
+<td title='com.google.refine.tests.model.RowTests.getFlaggedField()'><b>getFlaggedField</b><br>Test class: com.google.refine.tests.model.RowTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.model.RowTests@3b6752c9</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.ImporterUtilitiesTests.getIntegerOption()'><b>getIntegerOption</b><br>Test class: com.google.refine.tests.importers.ImporterUtilitiesTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.ImporterUtilitiesTests@2e19fc25</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.ImporterUtilitiesTests.getIntegerOptionReturnsDefaultOnError()'><b>getIntegerOptionReturnsDefaultOnError</b><br>Test class: com.google.refine.tests.importers.ImporterUtilitiesTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.ImporterUtilitiesTests@2e19fc25</td></tr>
+<tr>
+<td title='com.google.refine.tests.commands.CommandTests.getIntegerParameterWithNullParameters()'><b>getIntegerParameterWithNullParameters</b><br>Test class: com.google.refine.tests.commands.CommandTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.commands.CommandTests@31dd7736</td></tr>
+<tr>
+<td title='com.google.refine.tests.commands.CommandTests.getIntegerParametersRegressionTest()'><b>getIntegerParametersRegressionTest</b><br>Test class: com.google.refine.tests.commands.CommandTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.commands.CommandTests@31dd7736</td></tr>
+<tr>
+<td title='com.google.refine.tests.commands.CommandTests.getIntegerParametersWithIncorrectParameterName()'><b>getIntegerParametersWithIncorrectParameterName</b><br>Test class: com.google.refine.tests.commands.CommandTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.commands.CommandTests@31dd7736</td></tr>
+<tr>
+<td title='com.google.refine.tests.commands.CommandTests.getJsonParameterRegressionTest()'><b>getJsonParameterRegressionTest</b><br>Test class: com.google.refine.tests.commands.CommandTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.commands.CommandTests@31dd7736</td></tr>
+<tr>
+<td title='com.google.refine.tests.commands.CommandTests.getJsonParameterWithMalformedJson()'><b>getJsonParameterWithMalformedJson</b><br>Test class: com.google.refine.tests.commands.CommandTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.commands.CommandTests@31dd7736</td></tr>
+<tr>
+<td title='com.google.refine.tests.commands.CommandTests.getJsonParameterWithNullParameters()'><b>getJsonParameterWithNullParameters</b><br>Test class: com.google.refine.tests.commands.CommandTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.commands.CommandTests@31dd7736</td></tr>
+<tr>
+<td title='com.google.refine.tests.commands.CommandTests.getProjectThrowsIfResponseHasNoOrBrokenProjectParameter()'><b>getProjectThrowsIfResponseHasNoOrBrokenProjectParameter</b><br>Test class: com.google.refine.tests.commands.CommandTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.commands.CommandTests@31dd7736</td></tr>
+<tr>
+<td title='com.google.refine.tests.commands.CommandTests.getProjectThrowsWithNullParameter()'><b>getProjectThrowsWithNullParameter</b><br>Test class: com.google.refine.tests.commands.CommandTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.commands.CommandTests@31dd7736</td></tr>
+<tr>
+<td title='com.google.refine.tests.model.RowTests.getStarredField()'><b>getStarredField</b><br>Test class: com.google.refine.tests.model.RowTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.model.RowTests@3b6752c9</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.TsvCsvImporterTests.ignoreQuotes()'><b>ignoreQuotes</b><br>Test class: com.google.refine.tests.importers.TsvCsvImporterTests<br>Parameters: ,</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.TsvCsvImporterTests.ignoreQuotes()'><b>ignoreQuotes</b><br>Test class: com.google.refine.tests.importers.TsvCsvImporterTests<br>Parameters: 	</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.TsvCsvImporterTests.ignoreQuotes()'><b>ignoreQuotes</b><br>Test class: com.google.refine.tests.importers.TsvCsvImporterTests<br>Parameters: null</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.XmlImportUtilitiesTests.importTreeDataXmlTest()'><b>importTreeDataXmlTest</b><br>Test class: com.google.refine.tests.importers.XmlImportUtilitiesTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.XmlImportUtilitiesTests.importXmlWithVaryingStructureTest()'><b>importXmlWithVaryingStructureTest</b><br>Test class: com.google.refine.tests.importers.XmlImportUtilitiesTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468</td></tr>
+<tr>
+<td title='com.google.refine.tests.model.RowTests.nonBlankCell()'><b>nonBlankCell</b><br>Test class: com.google.refine.tests.model.RowTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.model.RowTests@3b6752c9</td></tr>
+<tr>
+<td title='com.google.refine.tests.model.RowTests.notEmptyRow()'><b>notEmptyRow</b><br>Test class: com.google.refine.tests.model.RowTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.model.RowTests@3b6752c9</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.XmlImportUtilitiesTests.processRecordTestDuplicateColumnsXml()'><b>processRecordTestDuplicateColumnsXml</b><br>Test class: com.google.refine.tests.importers.XmlImportUtilitiesTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.XmlImportUtilitiesTests.processRecordTestNestedElementXml()'><b>processRecordTestNestedElementXml</b><br>Test class: com.google.refine.tests.importers.XmlImportUtilitiesTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.XmlImportUtilitiesTests.processRecordTestXml()'><b>processRecordTestXml</b><br>Test class: com.google.refine.tests.importers.XmlImportUtilitiesTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.XmlImportUtilitiesTests.processSubRecordTestXml()'><b>processSubRecordTestXml</b><br>Test class: com.google.refine.tests.importers.XmlImportUtilitiesTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.TsvCsvImporterTests.readCanAddNull()'><b>readCanAddNull</b><br>Test class: com.google.refine.tests.importers.TsvCsvImporterTests<br>Parameters: ,</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.TsvCsvImporterTests.readCanAddNull()'><b>readCanAddNull</b><br>Test class: com.google.refine.tests.importers.TsvCsvImporterTests<br>Parameters: 	</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.TsvCsvImporterTests.readCanAddNull()'><b>readCanAddNull</b><br>Test class: com.google.refine.tests.importers.TsvCsvImporterTests<br>Parameters: null</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.TsvCsvImporterTests.readCsvWithProperties()'><b>readCsvWithProperties</b><br>Test class: com.google.refine.tests.importers.TsvCsvImporterTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.TsvCsvImporterTests.readCsvWithPropertiesIgnoreQuotes()'><b>readCsvWithPropertiesIgnoreQuotes</b><br>Test class: com.google.refine.tests.importers.TsvCsvImporterTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.TsvCsvImporterTests.readDoesNotTrimLeadingTrailingWhitespace()'><b>readDoesNotTrimLeadingTrailingWhitespace</b><br>Test class: com.google.refine.tests.importers.TsvCsvImporterTests<br>Parameters: ,</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.TsvCsvImporterTests.readDoesNotTrimLeadingTrailingWhitespace()'><b>readDoesNotTrimLeadingTrailingWhitespace</b><br>Test class: com.google.refine.tests.importers.TsvCsvImporterTests<br>Parameters: 	</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.TsvCsvImporterTests.readDoesNotTrimLeadingTrailingWhitespace()'><b>readDoesNotTrimLeadingTrailingWhitespace</b><br>Test class: com.google.refine.tests.importers.TsvCsvImporterTests<br>Parameters: null</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.TsvCsvImporterTests.readDoesNotTrimLeadingWhitespace()'><b>readDoesNotTrimLeadingWhitespace</b><br>Test class: com.google.refine.tests.importers.TsvCsvImporterTests<br>Parameters: ,</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.TsvCsvImporterTests.readDoesNotTrimLeadingWhitespace()'><b>readDoesNotTrimLeadingWhitespace</b><br>Test class: com.google.refine.tests.importers.TsvCsvImporterTests<br>Parameters: 	</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.TsvCsvImporterTests.readDoesNotTrimLeadingWhitespace()'><b>readDoesNotTrimLeadingWhitespace</b><br>Test class: com.google.refine.tests.importers.TsvCsvImporterTests<br>Parameters: null</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.FixedWidthImporterTests.readFixedWidth()'><b>readFixedWidth</b><br>Test class: com.google.refine.tests.importers.FixedWidthImporterTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.FixedWidthImporterTests@2c3299f6</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.TsvCsvImporterTests.readIgnore3_Header2_Skip1()'><b>readIgnore3_Header2_Skip1</b><br>Test class: com.google.refine.tests.importers.TsvCsvImporterTests<br>Parameters: ,</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.TsvCsvImporterTests.readIgnore3_Header2_Skip1()'><b>readIgnore3_Header2_Skip1</b><br>Test class: com.google.refine.tests.importers.TsvCsvImporterTests<br>Parameters: 	</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.TsvCsvImporterTests.readIgnore3_Header2_Skip1()'><b>readIgnore3_Header2_Skip1</b><br>Test class: com.google.refine.tests.importers.TsvCsvImporterTests<br>Parameters: null</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.TsvCsvImporterTests.readIgnore3_Header2_Skip2_limit2()'><b>readIgnore3_Header2_Skip2_limit2</b><br>Test class: com.google.refine.tests.importers.TsvCsvImporterTests<br>Parameters: ,</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.TsvCsvImporterTests.readIgnore3_Header2_Skip2_limit2()'><b>readIgnore3_Header2_Skip2_limit2</b><br>Test class: com.google.refine.tests.importers.TsvCsvImporterTests<br>Parameters: 	</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.TsvCsvImporterTests.readIgnore3_Header2_Skip2_limit2()'><b>readIgnore3_Header2_Skip2_limit2</b><br>Test class: com.google.refine.tests.importers.TsvCsvImporterTests<br>Parameters: null</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.TsvCsvImporterTests.readIgnoreFirstLine()'><b>readIgnoreFirstLine</b><br>Test class: com.google.refine.tests.importers.TsvCsvImporterTests<br>Parameters: ,</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.TsvCsvImporterTests.readIgnoreFirstLine()'><b>readIgnoreFirstLine</b><br>Test class: com.google.refine.tests.importers.TsvCsvImporterTests<br>Parameters: 	</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.TsvCsvImporterTests.readIgnoreFirstLine()'><b>readIgnoreFirstLine</b><br>Test class: com.google.refine.tests.importers.TsvCsvImporterTests<br>Parameters: null</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.TsvCsvImporterTests.readJustColumns()'><b>readJustColumns</b><br>Test class: com.google.refine.tests.importers.TsvCsvImporterTests<br>Parameters: ,</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.TsvCsvImporterTests.readJustColumns()'><b>readJustColumns</b><br>Test class: com.google.refine.tests.importers.TsvCsvImporterTests<br>Parameters: 	</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.TsvCsvImporterTests.readJustColumns()'><b>readJustColumns</b><br>Test class: com.google.refine.tests.importers.TsvCsvImporterTests<br>Parameters: null</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.TsvCsvImporterTests.readQuotedData()'><b>readQuotedData</b><br>Test class: com.google.refine.tests.importers.TsvCsvImporterTests<br>Parameters: ,</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.TsvCsvImporterTests.readQuotedData()'><b>readQuotedData</b><br>Test class: com.google.refine.tests.importers.TsvCsvImporterTests<br>Parameters: 	</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.TsvCsvImporterTests.readQuotedData()'><b>readQuotedData</b><br>Test class: com.google.refine.tests.importers.TsvCsvImporterTests<br>Parameters: null</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.TsvCsvImporterTests.readSimpleData_0Header_1Row()'><b>readSimpleData_0Header_1Row</b><br>Test class: com.google.refine.tests.importers.TsvCsvImporterTests<br>Parameters: ,</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.TsvCsvImporterTests.readSimpleData_0Header_1Row()'><b>readSimpleData_0Header_1Row</b><br>Test class: com.google.refine.tests.importers.TsvCsvImporterTests<br>Parameters: 	</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.TsvCsvImporterTests.readSimpleData_0Header_1Row()'><b>readSimpleData_0Header_1Row</b><br>Test class: com.google.refine.tests.importers.TsvCsvImporterTests<br>Parameters: null</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.TsvCsvImporterTests.readSimpleData_2Header_1Row()'><b>readSimpleData_2Header_1Row</b><br>Test class: com.google.refine.tests.importers.TsvCsvImporterTests<br>Parameters: ,</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.TsvCsvImporterTests.readSimpleData_2Header_1Row()'><b>readSimpleData_2Header_1Row</b><br>Test class: com.google.refine.tests.importers.TsvCsvImporterTests<br>Parameters: 	</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.TsvCsvImporterTests.readSimpleData_2Header_1Row()'><b>readSimpleData_2Header_1Row</b><br>Test class: com.google.refine.tests.importers.TsvCsvImporterTests<br>Parameters: null</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.TsvCsvImporterTests.readSimpleData_CSV_1Header_1Row()'><b>readSimpleData_CSV_1Header_1Row</b><br>Test class: com.google.refine.tests.importers.TsvCsvImporterTests<br>Parameters: ,</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.TsvCsvImporterTests.readSimpleData_CSV_1Header_1Row()'><b>readSimpleData_CSV_1Header_1Row</b><br>Test class: com.google.refine.tests.importers.TsvCsvImporterTests<br>Parameters: 	</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.TsvCsvImporterTests.readSimpleData_CSV_1Header_1Row()'><b>readSimpleData_CSV_1Header_1Row</b><br>Test class: com.google.refine.tests.importers.TsvCsvImporterTests<br>Parameters: null</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.TsvCsvImporterTests.readSimpleData_CSV_1Header_1Row_GuessValues()'><b>readSimpleData_CSV_1Header_1Row_GuessValues</b><br>Test class: com.google.refine.tests.importers.TsvCsvImporterTests<br>Parameters: ,</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.TsvCsvImporterTests.readSimpleData_CSV_1Header_1Row_GuessValues()'><b>readSimpleData_CSV_1Header_1Row_GuessValues</b><br>Test class: com.google.refine.tests.importers.TsvCsvImporterTests<br>Parameters: 	</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.TsvCsvImporterTests.readSimpleData_CSV_1Header_1Row_GuessValues()'><b>readSimpleData_CSV_1Header_1Row_GuessValues</b><br>Test class: com.google.refine.tests.importers.TsvCsvImporterTests<br>Parameters: null</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.TsvCsvImporterTests.readSimpleData_RowLongerThanHeader()'><b>readSimpleData_RowLongerThanHeader</b><br>Test class: com.google.refine.tests.importers.TsvCsvImporterTests<br>Parameters: ,</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.TsvCsvImporterTests.readSimpleData_RowLongerThanHeader()'><b>readSimpleData_RowLongerThanHeader</b><br>Test class: com.google.refine.tests.importers.TsvCsvImporterTests<br>Parameters: 	</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.TsvCsvImporterTests.readSimpleData_RowLongerThanHeader()'><b>readSimpleData_RowLongerThanHeader</b><br>Test class: com.google.refine.tests.importers.TsvCsvImporterTests<br>Parameters: null</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.TsvCsvImporterTests.readSkipFirstDataLine()'><b>readSkipFirstDataLine</b><br>Test class: com.google.refine.tests.importers.TsvCsvImporterTests<br>Parameters: ,</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.TsvCsvImporterTests.readSkipFirstDataLine()'><b>readSkipFirstDataLine</b><br>Test class: com.google.refine.tests.importers.TsvCsvImporterTests<br>Parameters: 	</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.TsvCsvImporterTests.readSkipFirstDataLine()'><b>readSkipFirstDataLine</b><br>Test class: com.google.refine.tests.importers.TsvCsvImporterTests<br>Parameters: null</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.TsvCsvImporterTests.readWithMultiLinedQuotedData()'><b>readWithMultiLinedQuotedData</b><br>Test class: com.google.refine.tests.importers.TsvCsvImporterTests<br>Parameters: ,</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.TsvCsvImporterTests.readWithMultiLinedQuotedData()'><b>readWithMultiLinedQuotedData</b><br>Test class: com.google.refine.tests.importers.TsvCsvImporterTests<br>Parameters: 	</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.TsvCsvImporterTests.readWithMultiLinedQuotedData()'><b>readWithMultiLinedQuotedData</b><br>Test class: com.google.refine.tests.importers.TsvCsvImporterTests<br>Parameters: null</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.TsvCsvImporterTests.readWithMultiLinedQuotedDataAndBlankLines()'><b>readWithMultiLinedQuotedDataAndBlankLines</b><br>Test class: com.google.refine.tests.importers.TsvCsvImporterTests<br>Parameters: ,</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.TsvCsvImporterTests.readWithMultiLinedQuotedDataAndBlankLines()'><b>readWithMultiLinedQuotedDataAndBlankLines</b><br>Test class: com.google.refine.tests.importers.TsvCsvImporterTests<br>Parameters: 	</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.TsvCsvImporterTests.readWithMultiLinedQuotedDataAndBlankLines()'><b>readWithMultiLinedQuotedDataAndBlankLines</b><br>Test class: com.google.refine.tests.importers.TsvCsvImporterTests<br>Parameters: null</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.ExcelImporterTests.readXls()'><b>readXls</b><br>Test class: com.google.refine.tests.importers.ExcelImporterTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.ExcelImporterTests@3d3c33b7</td></tr>
+<tr>
+<td title='com.google.refine.tests.model.RowTests.saveRow()'><b>saveRow</b><br>Test class: com.google.refine.tests.model.RowTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.model.RowTests@3b6752c9</td></tr>
+<tr>
+<td title='com.google.refine.tests.model.RowTests.saveRowWithRecordIndex()'><b>saveRowWithRecordIndex</b><br>Test class: com.google.refine.tests.model.RowTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.model.RowTests@3b6752c9</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.ImporterUtilitiesTests.setupColumns()'><b>setupColumns</b><br>Test class: com.google.refine.tests.importers.ImporterUtilitiesTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.ImporterUtilitiesTests@2e19fc25</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.JsonImporterTests.testCanParseLineBreak()'><b>testCanParseLineBreak</b><br>Test class: com.google.refine.tests.importers.JsonImporterTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.JsonImporterTests@a7981d5</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.XmlImporterTests.testCanParseLineBreak()'><b>testCanParseLineBreak</b><br>Test class: com.google.refine.tests.importers.XmlImporterTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.XmlImporterTests@4762d950</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.JsonImporterTests.testElementWithMqlReadOutput()'><b>testElementWithMqlReadOutput</b><br>Test class: com.google.refine.tests.importers.JsonImporterTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.JsonImporterTests@a7981d5</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.JsonImporterTests.testElementWithNestedTree()'><b>testElementWithNestedTree</b><br>Test class: com.google.refine.tests.importers.JsonImporterTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.JsonImporterTests@a7981d5</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.XmlImporterTests.testElementWithNestedTree()'><b>testElementWithNestedTree</b><br>Test class: com.google.refine.tests.importers.XmlImporterTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.XmlImporterTests@4762d950</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.JsonImporterTests.testElementsWithVaryingStructure()'><b>testElementsWithVaryingStructure</b><br>Test class: com.google.refine.tests.importers.JsonImporterTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.JsonImporterTests@a7981d5</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.XmlImporterTests.testElementsWithVaryingStructure()'><b>testElementsWithVaryingStructure</b><br>Test class: com.google.refine.tests.importers.XmlImporterTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.XmlImporterTests@4762d950</td></tr>
+<tr>
+<td title='com.google.refine.tests.grel.GrelTests.testEvalError()'><b>testEvalError</b><br>Test class: com.google.refine.tests.grel.GrelTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.grel.GrelTests@2aa937cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.grel.GrelTests.testInvalidSyntax()'><b>testInvalidSyntax</b><br>Test class: com.google.refine.tests.grel.GrelTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.grel.GrelTests@2aa937cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.importers.JsonImporterTests.testJSONMinimumArray()'><b>testJSONMinimumArray</b><br>Test class: com.google.refine.tests.importers.JsonImporterTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.importers.JsonImporterTests@a7981d5</td></tr>
+<tr>
+<td title='com.google.refine.tests.grel.GrelTests.testMath()'><b>testMath</b><br>Test class: com.google.refine.tests.grel.GrelTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.grel.GrelTests@2aa937cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.grel.GrelTests.testPI()'><b>testPI</b><br>Test class: com.google.refine.tests.grel.GrelTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.grel.GrelTests@2aa937cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.grel.GrelTests.testString()'><b>testString</b><br>Test class: com.google.refine.tests.grel.GrelTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.grel.GrelTests@2aa937cd</td></tr>
+<tr>
+<td title='com.google.refine.tests.expr.functions.strings.StringCaseTests.testToTitlecase()'><b>testToTitlecase</b><br>Test class: com.google.refine.tests.expr.functions.strings.StringCaseTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.expr.functions.strings.StringCaseTests@4430d83d</td></tr>
+<tr>
+<td title='com.google.refine.tests.expr.functions.strings.StringCaseTests.testToTitlecaseInvalidParams()'><b>testToTitlecaseInvalidParams</b><br>Test class: com.google.refine.tests.expr.functions.strings.StringCaseTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.expr.functions.strings.StringCaseTests@4430d83d</td></tr>
+<tr>
+<td title='com.google.refine.tests.model.RowTests.toStringTest()'><b>toStringTest</b><br>Test class: com.google.refine.tests.model.RowTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.model.RowTests@3b6752c9</td></tr>
+<tr>
+<td title='com.google.refine.tests.model.ReconTests.wordDistance()'><b>wordDistance</b><br>Test class: com.google.refine.tests.model.ReconTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.model.ReconTests@4e8deb8a</td></tr>
+<tr>
+<td title='com.google.refine.tests.model.ReconTests.wordDistanceOnlyStopwords()'><b>wordDistanceOnlyStopwords</b><br>Test class: com.google.refine.tests.model.ReconTests</td>
+<td></td>
+<td>0</td>
+<td>com.google.refine.tests.model.ReconTests@4e8deb8a</td></tr>
+</table><p>
+</body>
+</html>

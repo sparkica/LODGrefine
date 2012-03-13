@@ -1,0 +1,1408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="172" passed="172">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Refine Unit Tests" duration-ms="2451" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:34Z">
+    <groups>
+    </groups>
+    <test name="tests" duration-ms="2451" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:34Z">
+      <class name="com.google.refine.tests.exporters.TemplatingExporterTests">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.exporters.TemplatingExporterTests@59c958af]" name="SetUp" is-config="true" duration-ms="37" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="exportEmptyTemplate()[pri:0, instance:com.google.refine.tests.exporters.TemplatingExporterTests@59c958af]" name="exportEmptyTemplate" duration-ms="20" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- exportEmptyTemplate -->
+        <test-method status="PASS" signature="exportSimpleTemplate()[pri:0, instance:com.google.refine.tests.exporters.TemplatingExporterTests@59c958af]" name="exportSimpleTemplate" duration-ms="33" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- exportSimpleTemplate -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.exporters.TemplatingExporterTests@59c958af]" name="SetUp" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.exporters.TemplatingExporterTests@59c958af]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.exporters.TemplatingExporterTests@59c958af]" name="TearDown" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="exportTemplateWithEmptyCells()[pri:0, instance:com.google.refine.tests.exporters.TemplatingExporterTests@59c958af]" name="exportTemplateWithEmptyCells" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- exportTemplateWithEmptyCells -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.exporters.TemplatingExporterTests@59c958af]" name="SetUp" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.exporters.TemplatingExporterTests@59c958af]" name="SetUp" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.exporters.TemplatingExporterTests@59c958af]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="exportTemplateWithLimit()[pri:0, instance:com.google.refine.tests.exporters.TemplatingExporterTests@59c958af]" name="exportTemplateWithLimit" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- exportTemplateWithLimit -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.exporters.TemplatingExporterTests@59c958af]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.google.refine.tests.exporters.TemplatingExporterTests -->
+      <class name="com.google.refine.tests.ProjectManagerTests">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.ProjectManagerTests@62c4afc4]" name="SetUp" is-config="true" duration-ms="32" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="canEnsureProjectSave()[pri:0, instance:com.google.refine.tests.ProjectManagerTests@62c4afc4]" name="canEnsureProjectSave" duration-ms="32" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- canEnsureProjectSave -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.ProjectManagerTests@62c4afc4]" name="SetUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.ProjectManagerTests@62c4afc4]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="canFlushFromCache()[pri:0, instance:com.google.refine.tests.ProjectManagerTests@62c4afc4]" name="canFlushFromCache" duration-ms="5" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- canFlushFromCache -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.ProjectManagerTests@62c4afc4]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.ProjectManagerTests@62c4afc4]" name="SetUp" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="canRegisterProject()[pri:0, instance:com.google.refine.tests.ProjectManagerTests@62c4afc4]" name="canRegisterProject" duration-ms="1" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- canRegisterProject -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.ProjectManagerTests@62c4afc4]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="canSaveAllModified()[pri:0, instance:com.google.refine.tests.ProjectManagerTests@62c4afc4]" name="canSaveAllModified" duration-ms="23" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- canSaveAllModified -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.ProjectManagerTests@62c4afc4]" name="SetUp" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.ProjectManagerTests@62c4afc4]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.ProjectManagerTests@62c4afc4]" name="SetUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="canSaveSomeModified()[pri:0, instance:com.google.refine.tests.ProjectManagerTests@62c4afc4]" name="canSaveSomeModified" duration-ms="4" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- canSaveSomeModified -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.ProjectManagerTests@62c4afc4]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.ProjectManagerTests@62c4afc4]" name="SetUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="cannotSaveWhenBusy()[pri:0, instance:com.google.refine.tests.ProjectManagerTests@62c4afc4]" name="cannotSaveWhenBusy" duration-ms="5" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- cannotSaveWhenBusy -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.ProjectManagerTests@62c4afc4]" name="TearDown" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.google.refine.tests.ProjectManagerTests -->
+      <class name="com.google.refine.tests.util.ParsingUtilitiesTests">
+        <test-method status="PASS" signature="evaluateJsonStringToObjectRegressionTest()[pri:0, instance:com.google.refine.tests.util.ParsingUtilitiesTests@2f3acc52]" name="evaluateJsonStringToObjectRegressionTest" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- evaluateJsonStringToObjectRegressionTest -->
+        <test-method status="PASS" signature="evaluateJsonStringToObjectWithMalformedParameters()[pri:0, instance:com.google.refine.tests.util.ParsingUtilitiesTests@2f3acc52]" name="evaluateJsonStringToObjectWithMalformedParameters" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- evaluateJsonStringToObjectWithMalformedParameters -->
+        <test-method status="PASS" signature="evaluateJsonStringToObjectWithNullParameters()[pri:0, instance:com.google.refine.tests.util.ParsingUtilitiesTests@2f3acc52]" name="evaluateJsonStringToObjectWithNullParameters" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- evaluateJsonStringToObjectWithNullParameters -->
+      </class> <!-- com.google.refine.tests.util.ParsingUtilitiesTests -->
+      <class name="com.google.refine.tests.exporters.TsvExporterTests">
+        <test-method status="PASS" signature="exportSimpleTsv()[pri:0, instance:com.google.refine.tests.exporters.TsvExporterTests@45d1c3cd]" name="exportSimpleTsv" duration-ms="2" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- exportSimpleTsv -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.exporters.TsvExporterTests@45d1c3cd]" name="SetUp" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.exporters.TsvExporterTests@45d1c3cd]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.exporters.TsvExporterTests@45d1c3cd]" name="SetUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="exportSimpleTsvNoHeader()[pri:0, instance:com.google.refine.tests.exporters.TsvExporterTests@45d1c3cd]" name="exportSimpleTsvNoHeader" duration-ms="2" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- exportSimpleTsvNoHeader -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.exporters.TsvExporterTests@45d1c3cd]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.exporters.TsvExporterTests@45d1c3cd]" name="SetUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="exportTsvWithComma()[pri:0, instance:com.google.refine.tests.exporters.TsvExporterTests@45d1c3cd]" name="exportTsvWithComma" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- exportTsvWithComma -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.exporters.TsvExporterTests@45d1c3cd]" name="SetUp" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.exporters.TsvExporterTests@45d1c3cd]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="exportTsvWithEmptyCells()[pri:0, instance:com.google.refine.tests.exporters.TsvExporterTests@45d1c3cd]" name="exportTsvWithEmptyCells" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- exportTsvWithEmptyCells -->
+        <test-method status="PASS" signature="exportTsvWithLineBreaks()[pri:0, instance:com.google.refine.tests.exporters.TsvExporterTests@45d1c3cd]" name="exportTsvWithLineBreaks" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- exportTsvWithLineBreaks -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.exporters.TsvExporterTests@45d1c3cd]" name="SetUp" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.exporters.TsvExporterTests@45d1c3cd]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.exporters.TsvExporterTests@45d1c3cd]" name="SetUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.exporters.TsvExporterTests@45d1c3cd]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="exportTsvWithQuote()[pri:0, instance:com.google.refine.tests.exporters.TsvExporterTests@45d1c3cd]" name="exportTsvWithQuote" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- exportTsvWithQuote -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.exporters.TsvExporterTests@45d1c3cd]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.google.refine.tests.exporters.TsvExporterTests -->
+      <class name="com.google.refine.tests.model.RowTests">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.model.RowTests@3b6752c9]" name="SetUp" is-config="true" duration-ms="13" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="blankCell()[pri:0, instance:com.google.refine.tests.model.RowTests@3b6752c9]" name="blankCell" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- blankCell -->
+        <test-method status="PASS" signature="duplicateRow()[pri:0, instance:com.google.refine.tests.model.RowTests@3b6752c9]" name="duplicateRow" duration-ms="1" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- duplicateRow -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.model.RowTests@3b6752c9]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.model.RowTests@3b6752c9]" name="SetUp" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.model.RowTests@3b6752c9]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.model.RowTests@3b6752c9]" name="SetUp" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="emptyRow()[pri:0, instance:com.google.refine.tests.model.RowTests@3b6752c9]" name="emptyRow" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- emptyRow -->
+        <test-method status="PASS" signature="getFlaggedField()[pri:0, instance:com.google.refine.tests.model.RowTests@3b6752c9]" name="getFlaggedField" duration-ms="1" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- getFlaggedField -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.model.RowTests@3b6752c9]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.model.RowTests@3b6752c9]" name="SetUp" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.model.RowTests@3b6752c9]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.model.RowTests@3b6752c9]" name="SetUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="getStarredField()[pri:0, instance:com.google.refine.tests.model.RowTests@3b6752c9]" name="getStarredField" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- getStarredField -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.model.RowTests@3b6752c9]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="nonBlankCell()[pri:0, instance:com.google.refine.tests.model.RowTests@3b6752c9]" name="nonBlankCell" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- nonBlankCell -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.model.RowTests@3b6752c9]" name="SetUp" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="notEmptyRow()[pri:0, instance:com.google.refine.tests.model.RowTests@3b6752c9]" name="notEmptyRow" duration-ms="1" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- notEmptyRow -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.model.RowTests@3b6752c9]" name="SetUp" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.model.RowTests@3b6752c9]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.model.RowTests@3b6752c9]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.model.RowTests@3b6752c9]" name="SetUp" is-config="true" duration-ms="4" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="saveRow()[pri:0, instance:com.google.refine.tests.model.RowTests@3b6752c9]" name="saveRow" duration-ms="6" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- saveRow -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.model.RowTests@3b6752c9]" name="SetUp" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.model.RowTests@3b6752c9]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="saveRowWithRecordIndex()[pri:0, instance:com.google.refine.tests.model.RowTests@3b6752c9]" name="saveRowWithRecordIndex" duration-ms="4" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- saveRowWithRecordIndex -->
+        <test-method status="PASS" signature="toStringTest()[pri:0, instance:com.google.refine.tests.model.RowTests@3b6752c9]" name="toStringTest" duration-ms="1" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- toStringTest -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.model.RowTests@3b6752c9]" name="SetUp" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.model.RowTests@3b6752c9]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.model.RowTests@3b6752c9]" name="TearDown" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.google.refine.tests.model.RowTests -->
+      <class name="com.google.refine.tests.exporters.HtmlExporterTests">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.exporters.HtmlExporterTests@67e2c841]" name="SetUp" is-config="true" duration-ms="19" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="exportHtmlTableWithEmptyCells()[pri:0, instance:com.google.refine.tests.exporters.HtmlExporterTests@67e2c841]" name="exportHtmlTableWithEmptyCells" duration-ms="2" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- exportHtmlTableWithEmptyCells -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.exporters.HtmlExporterTests@67e2c841]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.exporters.HtmlExporterTests@67e2c841]" name="SetUp" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="exportSimpleHtmlTable()[pri:0, instance:com.google.refine.tests.exporters.HtmlExporterTests@67e2c841]" name="exportSimpleHtmlTable" duration-ms="1" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- exportSimpleHtmlTable -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.exporters.HtmlExporterTests@67e2c841]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.google.refine.tests.exporters.HtmlExporterTests -->
+      <class name="com.google.refine.tests.RefineTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.google.refine.tests.RefineTest@4b0e18ba]" name="init" is-config="true" duration-ms="9" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- init -->
+      </class> <!-- com.google.refine.tests.RefineTest -->
+      <class name="com.google.refine.tests.importers.ExcelImporterTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.ExcelImporterTests@3d3c33b7]" name="setUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="readXls()[pri:0, instance:com.google.refine.tests.importers.ExcelImporterTests@3d3c33b7]" name="readXls" duration-ms="59" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- readXls -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.ExcelImporterTests@3d3c33b7]" name="tearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.google.refine.tests.importers.ExcelImporterTests -->
+      <class name="com.google.refine.tests.importers.RdfTripleImporterTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.RdfTripleImporterTests@7aec8784]" name="setUp" is-config="true" duration-ms="45" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="CanParseMultiLineMultiPredicatesTriple()[pri:0, instance:com.google.refine.tests.importers.RdfTripleImporterTests@7aec8784]" name="CanParseMultiLineMultiPredicatesTriple" duration-ms="109" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- CanParseMultiLineMultiPredicatesTriple -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.RdfTripleImporterTests@7aec8784]" name="setUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="CanParseMultiLineTriple()[pri:0, instance:com.google.refine.tests.importers.RdfTripleImporterTests@7aec8784]" name="CanParseMultiLineTriple" duration-ms="4" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- CanParseMultiLineTriple -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.RdfTripleImporterTests@7aec8784]" name="setUp" is-config="true" duration-ms="2" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="CanParseTripleWithValue()[pri:0, instance:com.google.refine.tests.importers.RdfTripleImporterTests@7aec8784]" name="CanParseTripleWithValue" duration-ms="47" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- CanParseTripleWithValue -->
+      </class> <!-- com.google.refine.tests.importers.RdfTripleImporterTests -->
+      <class name="com.google.refine.tests.RefineServletTests">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.RefineServletTests@7c6c2896]" name="SetUp" is-config="true" duration-ms="30" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="doDeleteRegressionTest()[pri:0, instance:com.google.refine.tests.RefineServletTests@7c6c2896]" name="doDeleteRegressionTest" duration-ms="3" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- doDeleteRegressionTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.RefineServletTests@7c6c2896]" name="TearDown" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.RefineServletTests@7c6c2896]" name="SetUp" is-config="true" duration-ms="13" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="doDeleteReturns404WhenCommandNotFound()[pri:0, instance:com.google.refine.tests.RefineServletTests@7c6c2896]" name="doDeleteReturns404WhenCommandNotFound" duration-ms="3" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- doDeleteReturns404WhenCommandNotFound -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.RefineServletTests@7c6c2896]" name="TearDown" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.RefineServletTests@7c6c2896]" name="SetUp" is-config="true" duration-ms="18" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="doGetRegressionTest()[pri:0, instance:com.google.refine.tests.RefineServletTests@7c6c2896]" name="doGetRegressionTest" duration-ms="2" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- doGetRegressionTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.RefineServletTests@7c6c2896]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.RefineServletTests@7c6c2896]" name="SetUp" is-config="true" duration-ms="19" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="doGetReturnsError404WhenCommandNotFound()[pri:0, instance:com.google.refine.tests.RefineServletTests@7c6c2896]" name="doGetReturnsError404WhenCommandNotFound" duration-ms="2" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- doGetReturnsError404WhenCommandNotFound -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.RefineServletTests@7c6c2896]" name="TearDown" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.RefineServletTests@7c6c2896]" name="SetUp" is-config="true" duration-ms="19" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="doPostRegressionTest()[pri:0, instance:com.google.refine.tests.RefineServletTests@7c6c2896]" name="doPostRegressionTest" duration-ms="2" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- doPostRegressionTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.RefineServletTests@7c6c2896]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.RefineServletTests@7c6c2896]" name="SetUp" is-config="true" duration-ms="17" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="doPostReturns404WhenCommandNotFound()[pri:0, instance:com.google.refine.tests.RefineServletTests@7c6c2896]" name="doPostReturns404WhenCommandNotFound" duration-ms="1" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- doPostReturns404WhenCommandNotFound -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.RefineServletTests@7c6c2896]" name="SetUp" is-config="true" duration-ms="14" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.RefineServletTests@7c6c2896]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="doPutRegressionTest()[pri:0, instance:com.google.refine.tests.RefineServletTests@7c6c2896]" name="doPutRegressionTest" duration-ms="2" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- doPutRegressionTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.RefineServletTests@7c6c2896]" name="TearDown" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.RefineServletTests@7c6c2896]" name="SetUp" is-config="true" duration-ms="13" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="doPutReturns404WhenCommandNotFound()[pri:0, instance:com.google.refine.tests.RefineServletTests@7c6c2896]" name="doPutReturns404WhenCommandNotFound" duration-ms="2" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- doPutReturns404WhenCommandNotFound -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.RefineServletTests@7c6c2896]" name="SetUp" is-config="true" duration-ms="16" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.RefineServletTests@7c6c2896]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="getCommandNameHandlesBadCommandName()[pri:0, instance:com.google.refine.tests.RefineServletTests@7c6c2896]" name="getCommandNameHandlesBadCommandName" duration-ms="1" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- getCommandNameHandlesBadCommandName -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.RefineServletTests@7c6c2896]" name="TearDown" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.google.refine.tests.RefineServletTests -->
+      <class name="com.google.refine.tests.exporters.CsvExporterTests">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.exporters.CsvExporterTests@5eef9f84]" name="SetUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="exportCsvWithComma()[pri:0, instance:com.google.refine.tests.exporters.CsvExporterTests@5eef9f84]" name="exportCsvWithComma" duration-ms="27" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- exportCsvWithComma -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.exporters.CsvExporterTests@5eef9f84]" name="SetUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.exporters.CsvExporterTests@5eef9f84]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="exportCsvWithEmptyCells()[pri:0, instance:com.google.refine.tests.exporters.CsvExporterTests@5eef9f84]" name="exportCsvWithEmptyCells" duration-ms="1" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- exportCsvWithEmptyCells -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.exporters.CsvExporterTests@5eef9f84]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.exporters.CsvExporterTests@5eef9f84]" name="SetUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="exportCsvWithLineBreaks()[pri:0, instance:com.google.refine.tests.exporters.CsvExporterTests@5eef9f84]" name="exportCsvWithLineBreaks" duration-ms="1" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- exportCsvWithLineBreaks -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.exporters.CsvExporterTests@5eef9f84]" name="SetUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.exporters.CsvExporterTests@5eef9f84]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="exportCsvWithQuote()[pri:0, instance:com.google.refine.tests.exporters.CsvExporterTests@5eef9f84]" name="exportCsvWithQuote" duration-ms="1" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- exportCsvWithQuote -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.exporters.CsvExporterTests@5eef9f84]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.exporters.CsvExporterTests@5eef9f84]" name="SetUp" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="exportDateColumns()[pri:0, instance:com.google.refine.tests.exporters.CsvExporterTests@5eef9f84]" name="exportDateColumns" duration-ms="2" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- exportDateColumns -->
+        <test-method status="PASS" signature="exportSimpleCsv()[pri:0, instance:com.google.refine.tests.exporters.CsvExporterTests@5eef9f84]" name="exportSimpleCsv" duration-ms="1" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- exportSimpleCsv -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.exporters.CsvExporterTests@5eef9f84]" name="SetUp" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.exporters.CsvExporterTests@5eef9f84]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.exporters.CsvExporterTests@5eef9f84]" name="SetUp" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="exportSimpleCsvNoHeader()[pri:0, instance:com.google.refine.tests.exporters.CsvExporterTests@5eef9f84]" name="exportSimpleCsvNoHeader" duration-ms="2" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- exportSimpleCsvNoHeader -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.exporters.CsvExporterTests@5eef9f84]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.exporters.CsvExporterTests@5eef9f84]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.google.refine.tests.exporters.CsvExporterTests -->
+      <class name="com.google.refine.tests.expr.functions.strings.StringCaseTests">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.expr.functions.strings.StringCaseTests@4430d83d]" name="SetUp" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="testToTitlecase()[pri:0, instance:com.google.refine.tests.expr.functions.strings.StringCaseTests@4430d83d]" name="testToTitlecase" duration-ms="78" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- testToTitlecase -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.expr.functions.strings.StringCaseTests@4430d83d]" name="SetUp" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.expr.functions.strings.StringCaseTests@4430d83d]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.expr.functions.strings.StringCaseTests@4430d83d]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="testToTitlecaseInvalidParams()[pri:0, instance:com.google.refine.tests.expr.functions.strings.StringCaseTests@4430d83d]" name="testToTitlecaseInvalidParams" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- testToTitlecaseInvalidParams -->
+      </class> <!-- com.google.refine.tests.expr.functions.strings.StringCaseTests -->
+      <class name="com.google.refine.tests.exporters.XlsExporterTests">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.exporters.XlsExporterTests@3eb52a28]" name="SetUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="exportSimpleXls()[pri:0, instance:com.google.refine.tests.exporters.XlsExporterTests@3eb52a28]" name="exportSimpleXls" duration-ms="6" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- exportSimpleXls -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.exporters.XlsExporterTests@3eb52a28]" name="TearDown" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.google.refine.tests.exporters.XlsExporterTests -->
+      <class name="com.google.refine.tests.history.HistoryTests">
+        <test-method status="PASS" signature="canAddEntry()[pri:0, instance:com.google.refine.tests.history.HistoryTests@20dccfab]" name="canAddEntry" duration-ms="17" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- canAddEntry -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.history.HistoryTests@20dccfab]" name="SetUp" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.history.HistoryTests@20dccfab]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.google.refine.tests.history.HistoryTests -->
+      <class name="com.google.refine.tests.importers.TsvCsvImporterTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="setUp" is-config="true" duration-ms="2" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ignoreQuotes(java.lang.String)[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="ignoreQuotes" duration-ms="19" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[,]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- ignoreQuotes -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="tearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="setUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ignoreQuotes(java.lang.String)[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="ignoreQuotes" duration-ms="4" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[	]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- ignoreQuotes -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="tearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="setUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ignoreQuotes(java.lang.String)[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="ignoreQuotes" duration-ms="5" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+        </test-method> <!-- ignoreQuotes -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="tearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="setUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="readCanAddNull(java.lang.String)[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="readCanAddNull" duration-ms="5" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[,]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- readCanAddNull -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="tearDown" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="setUp" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="readCanAddNull(java.lang.String)[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="readCanAddNull" duration-ms="5" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[	]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- readCanAddNull -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="tearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="setUp" is-config="true" duration-ms="2" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="readCanAddNull(java.lang.String)[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="readCanAddNull" duration-ms="4" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+        </test-method> <!-- readCanAddNull -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="tearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="setUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="readCsvWithProperties()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="readCsvWithProperties" duration-ms="6" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- readCsvWithProperties -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="tearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="setUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="readCsvWithPropertiesIgnoreQuotes()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="readCsvWithPropertiesIgnoreQuotes" duration-ms="6" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- readCsvWithPropertiesIgnoreQuotes -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="tearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="setUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="readDoesNotTrimLeadingTrailingWhitespace(java.lang.String)[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="readDoesNotTrimLeadingTrailingWhitespace" duration-ms="4" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[,]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- readDoesNotTrimLeadingTrailingWhitespace -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="tearDown" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="setUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="readDoesNotTrimLeadingTrailingWhitespace(java.lang.String)[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="readDoesNotTrimLeadingTrailingWhitespace" duration-ms="4" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[	]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- readDoesNotTrimLeadingTrailingWhitespace -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="setUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="tearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="readDoesNotTrimLeadingTrailingWhitespace(java.lang.String)[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="readDoesNotTrimLeadingTrailingWhitespace" duration-ms="5" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+        </test-method> <!-- readDoesNotTrimLeadingTrailingWhitespace -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="tearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="setUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="readDoesNotTrimLeadingWhitespace(java.lang.String)[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="readDoesNotTrimLeadingWhitespace" duration-ms="4" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[,]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- readDoesNotTrimLeadingWhitespace -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="setUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="tearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="readDoesNotTrimLeadingWhitespace(java.lang.String)[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="readDoesNotTrimLeadingWhitespace" duration-ms="4" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[	]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- readDoesNotTrimLeadingWhitespace -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="setUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="tearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="readDoesNotTrimLeadingWhitespace(java.lang.String)[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="readDoesNotTrimLeadingWhitespace" duration-ms="5" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+        </test-method> <!-- readDoesNotTrimLeadingWhitespace -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="tearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="setUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="readIgnore3_Header2_Skip1(java.lang.String)[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="readIgnore3_Header2_Skip1" duration-ms="6" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[,]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- readIgnore3_Header2_Skip1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="tearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="setUp" is-config="true" duration-ms="2" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="readIgnore3_Header2_Skip1(java.lang.String)[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="readIgnore3_Header2_Skip1" duration-ms="6" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[	]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- readIgnore3_Header2_Skip1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="tearDown" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="setUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="readIgnore3_Header2_Skip1(java.lang.String)[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="readIgnore3_Header2_Skip1" duration-ms="5" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+        </test-method> <!-- readIgnore3_Header2_Skip1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="tearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="setUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="readIgnore3_Header2_Skip2_limit2(java.lang.String)[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="readIgnore3_Header2_Skip2_limit2" duration-ms="7" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[,]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- readIgnore3_Header2_Skip2_limit2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="tearDown" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="setUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="readIgnore3_Header2_Skip2_limit2(java.lang.String)[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="readIgnore3_Header2_Skip2_limit2" duration-ms="5" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[	]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- readIgnore3_Header2_Skip2_limit2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="tearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="setUp" is-config="true" duration-ms="2" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="readIgnore3_Header2_Skip2_limit2(java.lang.String)[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="readIgnore3_Header2_Skip2_limit2" duration-ms="4" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+        </test-method> <!-- readIgnore3_Header2_Skip2_limit2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="tearDown" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="setUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="readIgnoreFirstLine(java.lang.String)[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="readIgnoreFirstLine" duration-ms="5" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[,]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- readIgnoreFirstLine -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="setUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="tearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="readIgnoreFirstLine(java.lang.String)[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="readIgnoreFirstLine" duration-ms="4" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[	]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- readIgnoreFirstLine -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="tearDown" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="readIgnoreFirstLine(java.lang.String)[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="readIgnoreFirstLine" duration-ms="5" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+        </test-method> <!-- readIgnoreFirstLine -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="setUp" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="tearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="setUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="readJustColumns(java.lang.String)[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="readJustColumns" duration-ms="4" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[,]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- readJustColumns -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="setUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="tearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="readJustColumns(java.lang.String)[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="readJustColumns" duration-ms="4" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[	]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- readJustColumns -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="tearDown" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="setUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="readJustColumns(java.lang.String)[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="readJustColumns" duration-ms="4" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+        </test-method> <!-- readJustColumns -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="tearDown" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="setUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="readQuotedData(java.lang.String)[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="readQuotedData" duration-ms="5" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[,]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- readQuotedData -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="setUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="tearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="readQuotedData(java.lang.String)[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="readQuotedData" duration-ms="4" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[	]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- readQuotedData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="tearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="setUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="readQuotedData(java.lang.String)[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="readQuotedData" duration-ms="5" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+        </test-method> <!-- readQuotedData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="tearDown" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="setUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="readSimpleData_0Header_1Row(java.lang.String)[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="readSimpleData_0Header_1Row" duration-ms="6" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[,]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- readSimpleData_0Header_1Row -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="tearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="setUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="readSimpleData_0Header_1Row(java.lang.String)[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="readSimpleData_0Header_1Row" duration-ms="5" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[	]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- readSimpleData_0Header_1Row -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="tearDown" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="setUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="readSimpleData_0Header_1Row(java.lang.String)[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="readSimpleData_0Header_1Row" duration-ms="5" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+        </test-method> <!-- readSimpleData_0Header_1Row -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="tearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="setUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="readSimpleData_2Header_1Row(java.lang.String)[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="readSimpleData_2Header_1Row" duration-ms="6" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[,]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- readSimpleData_2Header_1Row -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="tearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="setUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="readSimpleData_2Header_1Row(java.lang.String)[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="readSimpleData_2Header_1Row" duration-ms="5" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[	]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- readSimpleData_2Header_1Row -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="tearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="setUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="readSimpleData_2Header_1Row(java.lang.String)[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="readSimpleData_2Header_1Row" duration-ms="5" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+        </test-method> <!-- readSimpleData_2Header_1Row -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="tearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="setUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="readSimpleData_CSV_1Header_1Row(java.lang.String)[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="readSimpleData_CSV_1Header_1Row" duration-ms="6" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[,]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- readSimpleData_CSV_1Header_1Row -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="tearDown" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="setUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="readSimpleData_CSV_1Header_1Row(java.lang.String)[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="readSimpleData_CSV_1Header_1Row" duration-ms="6" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[	]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- readSimpleData_CSV_1Header_1Row -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="tearDown" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="setUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="readSimpleData_CSV_1Header_1Row(java.lang.String)[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="readSimpleData_CSV_1Header_1Row" duration-ms="4" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+        </test-method> <!-- readSimpleData_CSV_1Header_1Row -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="tearDown" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="setUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="readSimpleData_CSV_1Header_1Row_GuessValues(java.lang.String)[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="readSimpleData_CSV_1Header_1Row_GuessValues" duration-ms="4" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[,]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- readSimpleData_CSV_1Header_1Row_GuessValues -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="tearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="setUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="readSimpleData_CSV_1Header_1Row_GuessValues(java.lang.String)[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="readSimpleData_CSV_1Header_1Row_GuessValues" duration-ms="4" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[	]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- readSimpleData_CSV_1Header_1Row_GuessValues -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="tearDown" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="readSimpleData_CSV_1Header_1Row_GuessValues(java.lang.String)[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="readSimpleData_CSV_1Header_1Row_GuessValues" duration-ms="5" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+        </test-method> <!-- readSimpleData_CSV_1Header_1Row_GuessValues -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="setUp" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="tearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="setUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="readSimpleData_RowLongerThanHeader(java.lang.String)[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="readSimpleData_RowLongerThanHeader" duration-ms="5" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[,]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- readSimpleData_RowLongerThanHeader -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="setUp" is-config="true" duration-ms="2" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="tearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="readSimpleData_RowLongerThanHeader(java.lang.String)[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="readSimpleData_RowLongerThanHeader" duration-ms="8" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[	]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- readSimpleData_RowLongerThanHeader -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="tearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="setUp" is-config="true" duration-ms="4" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="readSimpleData_RowLongerThanHeader(java.lang.String)[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="readSimpleData_RowLongerThanHeader" duration-ms="4" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+        </test-method> <!-- readSimpleData_RowLongerThanHeader -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="tearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="setUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="readSkipFirstDataLine(java.lang.String)[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="readSkipFirstDataLine" duration-ms="4" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[,]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- readSkipFirstDataLine -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="setUp" is-config="true" duration-ms="2" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="tearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="readSkipFirstDataLine(java.lang.String)[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="readSkipFirstDataLine" duration-ms="5" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[	]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- readSkipFirstDataLine -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="tearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="setUp" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="readSkipFirstDataLine(java.lang.String)[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="readSkipFirstDataLine" duration-ms="4" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+        </test-method> <!-- readSkipFirstDataLine -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="tearDown" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="setUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="readWithMultiLinedQuotedData(java.lang.String)[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="readWithMultiLinedQuotedData" duration-ms="4" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[,]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- readWithMultiLinedQuotedData -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="setUp" is-config="true" duration-ms="2" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="tearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="readWithMultiLinedQuotedData(java.lang.String)[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="readWithMultiLinedQuotedData" duration-ms="4" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[	]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- readWithMultiLinedQuotedData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="tearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="setUp" is-config="true" duration-ms="2" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="readWithMultiLinedQuotedData(java.lang.String)[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="readWithMultiLinedQuotedData" duration-ms="4" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+        </test-method> <!-- readWithMultiLinedQuotedData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="tearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="setUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="readWithMultiLinedQuotedDataAndBlankLines(java.lang.String)[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="readWithMultiLinedQuotedDataAndBlankLines" duration-ms="4" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[,]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- readWithMultiLinedQuotedDataAndBlankLines -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="setUp" is-config="true" duration-ms="2" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="tearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="readWithMultiLinedQuotedDataAndBlankLines(java.lang.String)[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="readWithMultiLinedQuotedDataAndBlankLines" duration-ms="5" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[	]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- readWithMultiLinedQuotedDataAndBlankLines -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="setUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="tearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="readWithMultiLinedQuotedDataAndBlankLines(java.lang.String)[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="readWithMultiLinedQuotedDataAndBlankLines" duration-ms="6" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+        </test-method> <!-- readWithMultiLinedQuotedDataAndBlankLines -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="tearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.google.refine.tests.importers.TsvCsvImporterTests -->
+      <class name="com.google.refine.tests.importers.JsonImporterTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.JsonImporterTests@a7981d5]" name="setUp" is-config="true" duration-ms="30" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="EnsureJSONParserHandlesgetLocalNameCorrectly()[pri:0, instance:com.google.refine.tests.importers.JsonImporterTests@a7981d5]" name="EnsureJSONParserHandlesgetLocalNameCorrectly" duration-ms="1" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- EnsureJSONParserHandlesgetLocalNameCorrectly -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.JsonImporterTests@a7981d5]" name="tearDown" is-config="true" duration-ms="18" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.JsonImporterTests@a7981d5]" name="setUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="canParseSample()[pri:0, instance:com.google.refine.tests.importers.JsonImporterTests@a7981d5]" name="canParseSample" duration-ms="17" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- canParseSample -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.JsonImporterTests@a7981d5]" name="setUp" is-config="true" duration-ms="2" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.JsonImporterTests@a7981d5]" name="tearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="canParseSampleWithDuplicateNestedElements()[pri:0, instance:com.google.refine.tests.importers.JsonImporterTests@a7981d5]" name="canParseSampleWithDuplicateNestedElements" duration-ms="5" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- canParseSampleWithDuplicateNestedElements -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.JsonImporterTests@a7981d5]" name="tearDown" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.JsonImporterTests@a7981d5]" name="setUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testCanParseLineBreak()[pri:0, instance:com.google.refine.tests.importers.JsonImporterTests@a7981d5]" name="testCanParseLineBreak" duration-ms="4" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- testCanParseLineBreak -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.JsonImporterTests@a7981d5]" name="setUp" is-config="true" duration-ms="2" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.JsonImporterTests@a7981d5]" name="tearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testElementWithMqlReadOutput()[pri:0, instance:com.google.refine.tests.importers.JsonImporterTests@a7981d5]" name="testElementWithMqlReadOutput" duration-ms="7" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- testElementWithMqlReadOutput -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.JsonImporterTests@a7981d5]" name="tearDown" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.JsonImporterTests@a7981d5]" name="setUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testElementWithNestedTree()[pri:0, instance:com.google.refine.tests.importers.JsonImporterTests@a7981d5]" name="testElementWithNestedTree" duration-ms="4" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- testElementWithNestedTree -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.JsonImporterTests@a7981d5]" name="tearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.JsonImporterTests@a7981d5]" name="setUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testElementsWithVaryingStructure()[pri:0, instance:com.google.refine.tests.importers.JsonImporterTests@a7981d5]" name="testElementsWithVaryingStructure" duration-ms="2" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- testElementsWithVaryingStructure -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.JsonImporterTests@a7981d5]" name="tearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.JsonImporterTests@a7981d5]" name="setUp" is-config="true" duration-ms="2" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testJSONMinimumArray()[pri:0, instance:com.google.refine.tests.importers.JsonImporterTests@a7981d5]" name="testJSONMinimumArray" duration-ms="1" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- testJSONMinimumArray -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.JsonImporterTests@a7981d5]" name="tearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.google.refine.tests.importers.JsonImporterTests -->
+      <class name="com.google.refine.tests.importers.XmlImportUtilitiesTests">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468]" name="SetUp" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="addCellTest()[pri:0, instance:com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468]" name="addCellTest" duration-ms="1" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- addCellTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468]" name="SetUp" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="createColumnsFromImportTest()[pri:0, instance:com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468]" name="createColumnsFromImportTest" duration-ms="4" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- createColumnsFromImportTest -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468]" name="SetUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="detectPathFromTagWithNestedElementXml()[pri:0, instance:com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468]" name="detectPathFromTagWithNestedElementXml" duration-ms="63" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- detectPathFromTagWithNestedElementXml -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="detectPathFromTagXmlTest()[pri:0, instance:com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468]" name="detectPathFromTagXmlTest" duration-ms="1" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- detectPathFromTagXmlTest -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468]" name="SetUp" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468]" name="SetUp" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="detectRecordElementCanHandleWithNestedElementsXml()[pri:0, instance:com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468]" name="detectRecordElementCanHandleWithNestedElementsXml" duration-ms="1" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- detectRecordElementCanHandleWithNestedElementsXml -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468]" name="SetUp" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="detectRecordElementIsNullForUnfoundTagXml()[pri:0, instance:com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468]" name="detectRecordElementIsNullForUnfoundTagXml" duration-ms="1" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- detectRecordElementIsNullForUnfoundTagXml -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468]" name="SetUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="detectRecordElementRegressionJsonTest()[pri:0, instance:com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468]" name="detectRecordElementRegressionJsonTest" duration-ms="40" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- detectRecordElementRegressionJsonTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="detectRecordElementRegressionXmlTest()[pri:0, instance:com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468]" name="detectRecordElementRegressionXmlTest" duration-ms="1" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- detectRecordElementRegressionXmlTest -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468]" name="SetUp" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468]" name="TearDown" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="detectRecordElementXmlTest()[pri:0, instance:com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468]" name="detectRecordElementXmlTest" duration-ms="1" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- detectRecordElementXmlTest -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468]" name="SetUp" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="findRecordTestXml()[pri:0, instance:com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468]" name="findRecordTestXml" duration-ms="12" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- findRecordTestXml -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468]" name="SetUp" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468]" name="SetUp" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="importTreeDataXmlTest()[pri:0, instance:com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468]" name="importTreeDataXmlTest" duration-ms="5" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- importTreeDataXmlTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468]" name="SetUp" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="importXmlWithVaryingStructureTest()[pri:0, instance:com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468]" name="importXmlWithVaryingStructureTest" duration-ms="4" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- importXmlWithVaryingStructureTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468]" name="SetUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="processRecordTestDuplicateColumnsXml()[pri:0, instance:com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468]" name="processRecordTestDuplicateColumnsXml" duration-ms="2" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- processRecordTestDuplicateColumnsXml -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468]" name="SetUp" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="processRecordTestNestedElementXml()[pri:0, instance:com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468]" name="processRecordTestNestedElementXml" duration-ms="3" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- processRecordTestNestedElementXml -->
+        <test-method status="PASS" signature="processRecordTestXml()[pri:0, instance:com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468]" name="processRecordTestXml" duration-ms="2" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- processRecordTestXml -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468]" name="SetUp" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468]" name="SetUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="processSubRecordTestXml()[pri:0, instance:com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468]" name="processSubRecordTestXml" duration-ms="2" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- processSubRecordTestXml -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468]" name="TearDown" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.google.refine.tests.importers.XmlImportUtilitiesTests -->
+      <class name="com.google.refine.tests.model.ReconTests">
+        <test-method status="PASS" signature="wordDistance()[pri:0, instance:com.google.refine.tests.model.ReconTests@4e8deb8a]" name="wordDistance" duration-ms="1" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- wordDistance -->
+        <test-method status="PASS" signature="wordDistanceOnlyStopwords()[pri:0, instance:com.google.refine.tests.model.ReconTests@4e8deb8a]" name="wordDistanceOnlyStopwords" duration-ms="1" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- wordDistanceOnlyStopwords -->
+      </class> <!-- com.google.refine.tests.model.ReconTests -->
+      <class name="com.google.refine.tests.commands.util.CancelProcessesCommandTests">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.google.refine.tests.commands.util.CancelProcessesCommandTests@4b8e899c]" name="init" is-config="true" duration-ms="103" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.google.refine.tests.exporters.HtmlExporterTests@67e2c841]" name="init" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.google.refine.tests.exporters.CsvExporterTests@5eef9f84]" name="init" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.google.refine.tests.commands.CommandTests@31dd7736]" name="init" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.google.refine.tests.importers.ExcelImporterTests@3d3c33b7]" name="init" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.google.refine.tests.history.HistoryTests@20dccfab]" name="init" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.google.refine.tests.importers.FixedWidthImporterTests@2c3299f6]" name="init" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.google.refine.tests.grel.GrelTests@2aa937cd]" name="init" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.google.refine.tests.exporters.TemplatingExporterTests@59c958af]" name="init" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.google.refine.tests.expr.functions.strings.StringCaseTests@4430d83d]" name="init" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.google.refine.tests.ProjectManagerTests@62c4afc4]" name="init" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.google.refine.tests.util.ParsingUtilitiesTests@2f3acc52]" name="init" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.google.refine.tests.importers.ImporterUtilitiesTests@2e19fc25]" name="init" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.google.refine.tests.importers.JsonImporterTests@a7981d5]" name="init" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.google.refine.tests.importers.RdfTripleImporterTests@7aec8784]" name="init" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.google.refine.tests.RefineServletTests@7c6c2896]" name="init" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.google.refine.tests.model.ReconTests@4e8deb8a]" name="init" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.google.refine.tests.model.RowTests@3b6752c9]" name="init" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.google.refine.tests.importers.XmlImportUtilitiesTests@c5f468]" name="init" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.google.refine.tests.importers.TsvCsvImporterTests@42bd93cd]" name="init" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.google.refine.tests.exporters.XlsExporterTests@3eb52a28]" name="init" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.google.refine.tests.importers.XmlImporterTests@4762d950]" name="init" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.google.refine.tests.exporters.TsvExporterTests@45d1c3cd]" name="init" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.commands.util.CancelProcessesCommandTests@4b8e899c]" name="SetUp" is-config="true" duration-ms="87" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="doPostCatchesExceptionFromWriter()[pri:0, instance:com.google.refine.tests.commands.util.CancelProcessesCommandTests@4b8e899c]" name="doPostCatchesExceptionFromWriter" duration-ms="7" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- doPostCatchesExceptionFromWriter -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.commands.util.CancelProcessesCommandTests@4b8e899c]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.commands.util.CancelProcessesCommandTests@4b8e899c]" name="SetUp" is-config="true" duration-ms="14" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="doPostFailsThrowsWithNullParameters()[pri:0, instance:com.google.refine.tests.commands.util.CancelProcessesCommandTests@4b8e899c]" name="doPostFailsThrowsWithNullParameters" duration-ms="1" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- doPostFailsThrowsWithNullParameters -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.commands.util.CancelProcessesCommandTests@4b8e899c]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.commands.util.CancelProcessesCommandTests@4b8e899c]" name="SetUp" is-config="true" duration-ms="14" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="doPostRegressionTest()[pri:0, instance:com.google.refine.tests.commands.util.CancelProcessesCommandTests@4b8e899c]" name="doPostRegressionTest" duration-ms="5" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- doPostRegressionTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.commands.util.CancelProcessesCommandTests@4b8e899c]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.commands.util.CancelProcessesCommandTests@4b8e899c]" name="SetUp" is-config="true" duration-ms="14" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="doPostThrowsIfCommand_getProjectReturnsNull()[pri:0, instance:com.google.refine.tests.commands.util.CancelProcessesCommandTests@4b8e899c]" name="doPostThrowsIfCommand_getProjectReturnsNull" duration-ms="4" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- doPostThrowsIfCommand_getProjectReturnsNull -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.commands.util.CancelProcessesCommandTests@4b8e899c]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:33Z" finished-at="2012-02-13T10:19:33Z">
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.google.refine.tests.commands.util.CancelProcessesCommandTests -->
+      <class name="com.google.refine.tests.importers.ImporterUtilitiesTests">
+        <test-method status="PASS" signature="appendColumnName()[pri:0, instance:com.google.refine.tests.importers.ImporterUtilitiesTests@2e19fc25]" name="appendColumnName" duration-ms="27" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- appendColumnName -->
+        <test-method status="PASS" signature="appendColumnNameFromMultipleRows()[pri:0, instance:com.google.refine.tests.importers.ImporterUtilitiesTests@2e19fc25]" name="appendColumnNameFromMultipleRows" duration-ms="1" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- appendColumnNameFromMultipleRows -->
+        <test-method status="PASS" signature="ensureColumnsInRowExist()[pri:0, instance:com.google.refine.tests.importers.ImporterUtilitiesTests@2e19fc25]" name="ensureColumnsInRowExist" duration-ms="1" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- ensureColumnsInRowExist -->
+        <test-method status="PASS" signature="ensureColumnsInRowExistDoesExpand()[pri:0, instance:com.google.refine.tests.importers.ImporterUtilitiesTests@2e19fc25]" name="ensureColumnsInRowExistDoesExpand" duration-ms="2" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- ensureColumnsInRowExistDoesExpand -->
+        <test-method status="PASS" signature="getIntegerOption()[pri:0, instance:com.google.refine.tests.importers.ImporterUtilitiesTests@2e19fc25]" name="getIntegerOption" duration-ms="14" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- getIntegerOption -->
+        <test-method status="PASS" signature="getIntegerOptionReturnsDefaultOnError()[pri:0, instance:com.google.refine.tests.importers.ImporterUtilitiesTests@2e19fc25]" name="getIntegerOptionReturnsDefaultOnError" duration-ms="2" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- getIntegerOptionReturnsDefaultOnError -->
+        <test-method status="PASS" signature="setupColumns()[pri:0, instance:com.google.refine.tests.importers.ImporterUtilitiesTests@2e19fc25]" name="setupColumns" duration-ms="4" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- setupColumns -->
+      </class> <!-- com.google.refine.tests.importers.ImporterUtilitiesTests -->
+      <class name="com.google.refine.tests.grel.GrelTests">
+        <test-method status="PASS" signature="testEvalError()[pri:0, instance:com.google.refine.tests.grel.GrelTests@2aa937cd]" name="testEvalError" duration-ms="9" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- testEvalError -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.grel.GrelTests@2aa937cd]" name="SetUp" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.grel.GrelTests@2aa937cd]" name="SetUp" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.grel.GrelTests@2aa937cd]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="testInvalidSyntax()[pri:0, instance:com.google.refine.tests.grel.GrelTests@2aa937cd]" name="testInvalidSyntax" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- testInvalidSyntax -->
+        <test-method status="PASS" signature="testMath()[pri:0, instance:com.google.refine.tests.grel.GrelTests@2aa937cd]" name="testMath" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- testMath -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.grel.GrelTests@2aa937cd]" name="SetUp" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.grel.GrelTests@2aa937cd]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="testPI()[pri:0, instance:com.google.refine.tests.grel.GrelTests@2aa937cd]" name="testPI" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- testPI -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.grel.GrelTests@2aa937cd]" name="SetUp" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.grel.GrelTests@2aa937cd]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="testString()[pri:0, instance:com.google.refine.tests.grel.GrelTests@2aa937cd]" name="testString" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- testString -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.grel.GrelTests@2aa937cd]" name="SetUp" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.grel.GrelTests@2aa937cd]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.grel.GrelTests@2aa937cd]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.google.refine.tests.grel.GrelTests -->
+      <class name="com.google.refine.tests.importers.XmlImporterTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.XmlImporterTests@4762d950]" name="setUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="canParseDeeplyNestedSample()[pri:0, instance:com.google.refine.tests.importers.XmlImporterTests@4762d950]" name="canParseDeeplyNestedSample" duration-ms="4" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- canParseDeeplyNestedSample -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.XmlImporterTests@4762d950]" name="setUp" is-config="true" duration-ms="2" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.XmlImporterTests@4762d950]" name="tearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="canParseSample()[pri:0, instance:com.google.refine.tests.importers.XmlImporterTests@4762d950]" name="canParseSample" duration-ms="4" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- canParseSample -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.XmlImporterTests@4762d950]" name="tearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.XmlImporterTests@4762d950]" name="setUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="canParseSampleWithDuplicateNestedElements()[pri:0, instance:com.google.refine.tests.importers.XmlImporterTests@4762d950]" name="canParseSampleWithDuplicateNestedElements" duration-ms="6" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- canParseSampleWithDuplicateNestedElements -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.XmlImporterTests@4762d950]" name="setUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.XmlImporterTests@4762d950]" name="tearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="canParseSampleWithMixedElement()[pri:0, instance:com.google.refine.tests.importers.XmlImporterTests@4762d950]" name="canParseSampleWithMixedElement" duration-ms="4" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- canParseSampleWithMixedElement -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.XmlImporterTests@4762d950]" name="tearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.XmlImporterTests@4762d950]" name="setUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testCanParseLineBreak()[pri:0, instance:com.google.refine.tests.importers.XmlImporterTests@4762d950]" name="testCanParseLineBreak" duration-ms="5" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- testCanParseLineBreak -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.XmlImporterTests@4762d950]" name="tearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.XmlImporterTests@4762d950]" name="setUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testElementWithNestedTree()[pri:0, instance:com.google.refine.tests.importers.XmlImporterTests@4762d950]" name="testElementWithNestedTree" duration-ms="5" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- testElementWithNestedTree -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.XmlImporterTests@4762d950]" name="setUp" is-config="true" duration-ms="2" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.XmlImporterTests@4762d950]" name="tearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testElementsWithVaryingStructure()[pri:0, instance:com.google.refine.tests.importers.XmlImporterTests@4762d950]" name="testElementsWithVaryingStructure" duration-ms="7" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- testElementsWithVaryingStructure -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.XmlImporterTests@4762d950]" name="tearDown" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.google.refine.tests.importers.XmlImporterTests -->
+      <class name="com.google.refine.tests.commands.CommandTests">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.commands.CommandTests@31dd7736]" name="SetUp" is-config="true" duration-ms="166" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="getEngineConfigRegressionTest()[pri:0, instance:com.google.refine.tests.commands.CommandTests@31dd7736]" name="getEngineConfigRegressionTest" duration-ms="87" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- getEngineConfigRegressionTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.commands.CommandTests@31dd7736]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.commands.CommandTests@31dd7736]" name="SetUp" is-config="true" duration-ms="17" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="getEngineConfigReturnsNullWithEmptyOrBadParameterValue()[pri:0, instance:com.google.refine.tests.commands.CommandTests@31dd7736]" name="getEngineConfigReturnsNullWithEmptyOrBadParameterValue" duration-ms="1" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- getEngineConfigReturnsNullWithEmptyOrBadParameterValue -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.commands.CommandTests@31dd7736]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.commands.CommandTests@31dd7736]" name="SetUp" is-config="true" duration-ms="14" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="getEngineConfigReturnsNullWithNullEngineParameter()[pri:0, instance:com.google.refine.tests.commands.CommandTests@31dd7736]" name="getEngineConfigReturnsNullWithNullEngineParameter" duration-ms="1" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- getEngineConfigReturnsNullWithNullEngineParameter -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.commands.CommandTests@31dd7736]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.commands.CommandTests@31dd7736]" name="SetUp" is-config="true" duration-ms="16" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="getEngineConfigThrowsWithNullParameter()[pri:0, instance:com.google.refine.tests.commands.CommandTests@31dd7736]" name="getEngineConfigThrowsWithNullParameter" duration-ms="1" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- getEngineConfigThrowsWithNullParameter -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.commands.CommandTests@31dd7736]" name="TearDown" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.commands.CommandTests@31dd7736]" name="SetUp" is-config="true" duration-ms="13" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="getEngineRegressionTest()[pri:0, instance:com.google.refine.tests.commands.CommandTests@31dd7736]" name="getEngineRegressionTest" duration-ms="31" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- getEngineRegressionTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.commands.CommandTests@31dd7736]" name="TearDown" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.commands.CommandTests@31dd7736]" name="SetUp" is-config="true" duration-ms="12" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="getEngineThrowsOnNullParameter()[pri:0, instance:com.google.refine.tests.commands.CommandTests@31dd7736]" name="getEngineThrowsOnNullParameter" duration-ms="1" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- getEngineThrowsOnNullParameter -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.commands.CommandTests@31dd7736]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.commands.CommandTests@31dd7736]" name="SetUp" is-config="true" duration-ms="10" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="getIntegerParameterWithNullParameters()[pri:0, instance:com.google.refine.tests.commands.CommandTests@31dd7736]" name="getIntegerParameterWithNullParameters" duration-ms="1" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- getIntegerParameterWithNullParameters -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.commands.CommandTests@31dd7736]" name="TearDown" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.commands.CommandTests@31dd7736]" name="SetUp" is-config="true" duration-ms="11" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="getIntegerParametersRegressionTest()[pri:0, instance:com.google.refine.tests.commands.CommandTests@31dd7736]" name="getIntegerParametersRegressionTest" duration-ms="2" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- getIntegerParametersRegressionTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.commands.CommandTests@31dd7736]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.commands.CommandTests@31dd7736]" name="SetUp" is-config="true" duration-ms="11" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="getIntegerParametersWithIncorrectParameterName()[pri:0, instance:com.google.refine.tests.commands.CommandTests@31dd7736]" name="getIntegerParametersWithIncorrectParameterName" duration-ms="2" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- getIntegerParametersWithIncorrectParameterName -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.commands.CommandTests@31dd7736]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.commands.CommandTests@31dd7736]" name="SetUp" is-config="true" duration-ms="17" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="getJsonParameterRegressionTest()[pri:0, instance:com.google.refine.tests.commands.CommandTests@31dd7736]" name="getJsonParameterRegressionTest" duration-ms="1" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- getJsonParameterRegressionTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.commands.CommandTests@31dd7736]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.commands.CommandTests@31dd7736]" name="SetUp" is-config="true" duration-ms="12" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="getJsonParameterWithMalformedJson()[pri:0, instance:com.google.refine.tests.commands.CommandTests@31dd7736]" name="getJsonParameterWithMalformedJson" duration-ms="1" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- getJsonParameterWithMalformedJson -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.commands.CommandTests@31dd7736]" name="SetUp" is-config="true" duration-ms="15" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.commands.CommandTests@31dd7736]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="getJsonParameterWithNullParameters()[pri:0, instance:com.google.refine.tests.commands.CommandTests@31dd7736]" name="getJsonParameterWithNullParameters" duration-ms="2" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- getJsonParameterWithNullParameters -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.commands.CommandTests@31dd7736]" name="TearDown" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.commands.CommandTests@31dd7736]" name="SetUp" is-config="true" duration-ms="9" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="getProjectThrowsIfResponseHasNoOrBrokenProjectParameter()[pri:0, instance:com.google.refine.tests.commands.CommandTests@31dd7736]" name="getProjectThrowsIfResponseHasNoOrBrokenProjectParameter" duration-ms="2" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- getProjectThrowsIfResponseHasNoOrBrokenProjectParameter -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.commands.CommandTests@31dd7736]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.google.refine.tests.commands.CommandTests@31dd7736]" name="SetUp" is-config="true" duration-ms="10" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="getProjectThrowsWithNullParameter()[pri:0, instance:com.google.refine.tests.commands.CommandTests@31dd7736]" name="getProjectThrowsWithNullParameter" duration-ms="0" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- getProjectThrowsWithNullParameter -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.google.refine.tests.commands.CommandTests@31dd7736]" name="TearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:32Z" finished-at="2012-02-13T10:19:32Z">
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.google.refine.tests.commands.CommandTests -->
+      <class name="com.google.refine.tests.importers.FixedWidthImporterTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.refine.tests.importers.FixedWidthImporterTests@2c3299f6]" name="setUp" is-config="true" duration-ms="1" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="readFixedWidth()[pri:0, instance:com.google.refine.tests.importers.FixedWidthImporterTests@2c3299f6]" name="readFixedWidth" duration-ms="6" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- readFixedWidth -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.refine.tests.importers.FixedWidthImporterTests@2c3299f6]" name="tearDown" is-config="true" duration-ms="0" started-at="2012-02-13T10:19:34Z" finished-at="2012-02-13T10:19:34Z">
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.google.refine.tests.importers.FixedWidthImporterTests -->
+    </test> <!-- tests -->
+  </suite> <!-- Refine Unit Tests -->
+</testng-results>

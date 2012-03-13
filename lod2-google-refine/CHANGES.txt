@@ -1,0 +1,107 @@
+Ongoing
+
+Major Changes:
+- New extension architecture.
+- Generalized reconciliation framework that allows plugging in standard reconciliation services.
+- Support for QA on data loads into Freebase.
+- Timeline Facet (Issue 40 and 95)
+
+Features:
+- New commands:
+  - Fill Down
+  - Blank Down
+  - Transpose Cells in Columns into Rows
+  - Transpose Cells in Rows into Columns (Issue 82)
+  - Move Column to Beginning, Move Column to End, Move Column Left, Move Column Right, Reorder Columns
+  - Add Column by Fetching URLs
+  - Recon commands:
+    - Clear recon data for all matching rows
+    - Clear recon data for one cell
+    - Clear recon data for similar cells
+    - Copy recon judgments across columns
+- GEL:
+  - JSON support
+  - New functions: smartSplit, escape, parseJson, hasField, uniques
+  - New controls: forEachIndex, forRange, filter
+  - New parameters:
+    - preserveAllTokens on split function
+  - Regexp groups capturing GEL function
+- Importers
+  - New: RDF exporter (as extension)
+  - New: Json importer
+  - CSV and TSV importers: added support for ignoring quotation marks
+  - Added support for creating a project by pointing to a data file URL.
+- Text facet's choice count limit is now configurable through preference page
+- Select All and Unselect All buttons in History Extract dialog
+- Schema skeleton: support for multiple cells per cell-as nodes, and for conditional links
+
+Fixes:
+- TSV/CSV exporter bug: Gridworks crashed when there were empty cells.
+- Issue 29: Delievered "Collapse whitespace" transformation does not work
+- Issue 69: ControlFunctionRegistry now correctly registers Chomp expression as "chomp" key.
+- Issue 66: Records not excluded with inverted text facet
+- Issue 86: Parse cells after splitting columns
+- Issue 99: Diff for dates fails with "unknown error" always
+- Issue 110: Import of single column text file with Postal Codes shows only 1 row with lots of � chars (?)
+- Issue 113: Export filtered rows as tsv or csv fails; html and excel OK
+- Issue 116: CSV/TSV export data includes blank fields for deleted columns
+- Issue 121: Importing attached file strips backslashes
+- Issue 122: Exporting to Excel on attached project raises server exception
+- Issue 126: Large integers formatted in scientific notation in formulas
+- Issue 135: Hangs when setting cell value to large JSON string
+- Issue 138: Numbers should be right-justified
+- Issue 146: In "Cluster and Edit Column", clicking on entry value to set "Merge?" checkbox does not reflect the final value of operation
+
+1.1 Release (May 27, 2010)
+
+Features:
+- Row/record sorting (Issue 32)
+- CSV exporter (Issue 59)
+- Mqlwrite exporter
+- Templating exporter (experimental)
+
+Fixes:
+- Issue 34: "Behavior of Text Filter is unpredictable when "regular expression" mode is enabled."
+  Regex was not compiled with case insensitivity flag.
+- Issue 4: "Match All bug with ZIP code". Numeric values in cells were not stringified first
+  before comparison.
+- Issue 41: "Envelope quotation marks are removed by CSV importer"
+- Issue 19: "CSV import is too basic"
+- Issue 15: "Ability to rename projects"
+- Issue 16: "Column name collision when adding data from Freebase"
+- Issue 28: "mql-like preview is not properly unquoting numbers"
+- Issue 45: "Renaming Cells with Ctrl-Enter produced ERROR"
+  Tentative fix for a concurrent bug.
+- Issue 46: "Array literals in GEL"
+- Issue 55: "Use stable sorting for text facets sorted by count"
+- Issue 53: "Moving the cursor inside the Text Filter box by clicking"
+- Issue 58: "Meta facet"
+  Supported by the function facetCount()
+- Issue 14: "Limiting Freebase load to starred records"
+  We load whatever rows that are filtered through, not particularly starred rows.
+- Issue 49: "Add Edit Cells / Set Null"
+- Issue 30: "Transform dialog should remember preferred language."
+- Issue 62: "It'd be nice if URIs were hyperlinked in the data cells"
+
+Other Changes:
+- Moved unit tests from JUnit to TestNG
+
+
+1.0.1 Release (May 12, 2010)
+
+Fixes:
+- Issue 2: "Undo History bug" - bulk row starring and flagging operations could not be undone.
+- Issue 5: "Localized Windows cause save problems for Gridworks" -
+  Windows user IDs that contain unicode characters were not retrieved correctly.
+- Issue 10: "OAuth fails on sign in" - due to clock offset.
+- Issue 11: "missing "lang" attribute in MQL generated in schema alignment"
+- Issue 13: "float rejected from sandbox upload as Json object" - everything was sent as a string.
+- Issue 17: "Conflated triples - all rows are producing triple with "s" :" $Name_0"" -
+  The Create A New Topic for Each Cell command created shared recon objects.
+- Issue 18: "Error converting russian characters during edit of single cell"
+- [partial fix] Issue 19: "CSV import is too basic" - fixed for CSV, not for TSV
+
+1.0 Release (May 10, 2010)
+
+First Public Release
+
