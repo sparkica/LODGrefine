@@ -51,6 +51,9 @@
         <fileset dir="${refine.lib.dir}">
             <include name="**/*.jar" />
         </fileset>
+        <fileset dir="${server.lib.dir}">
+            <include name="**/*.jar" />
+        </fileset>
         <pathelement path="${refine.classes.dir}"/>
     </path>
 	
