@@ -14,16 +14,18 @@
     <property environment="env"/>
 
     <property name="version" value="trunk"/>
-    <property name="revision" value="rXXXX"/>
-    <property name="full_version" value="0.0.0.0"/>
+    <property name="revision" value="r0001"/>
+    <property name="full_version" value="0.0.0.1"/>
     <property name="build.dir" value="build"/>
     <property name="dist.dir" value="dist"/>
 
     <property name="appengine.app_id" value="google-refine-broker"/>
     <property name="appengine.version" value="1"/>
     <property name="appengine.sdk.dir" value="/opt/appengine"/>
+	
+	<property name="launch4j.dir" location="/opt/launch4j" />
         
-    <property name="fullname" value="google-refine-${version}-${revision}" />
+    <property name="fullname" value="lod-google-refine-${version}-${revision}" />
     
     <property name="main.dir" value="${basedir}/main" />
 
@@ -227,12 +229,12 @@
         
         <jarbundler 
                 dir="${mac.dir}"
-                name="Google Refine"
+                name="LODGrefine"
                 mainclass="com.google.refine.Refine" 
                 icon="${graphics.dir}/icon/google-refine.icns"
                 version="${version}"
-                infostring="Google Refine ${version}"
-                aboutmenuname="Google Refine"
+                infostring="LODGrefine  ${version}"
+                aboutmenuname="LODGrefine"
                 workingdirectory="$APP_PACKAGE/Contents/Resources"
                 jvmversion="1.6+"
                 bundleid="com.google.refine.Refine"
@@ -255,11 +257,10 @@
     
     <target name="windows" depends="jar, prepare_webapp">
         <mkdir dir="${windows.dir}"/>
-        <taskdef 
-            name="launch4j" 
-            classname="net.sf.launch4j.ant.Launch4jTask" 
-            classpath="${launch4j.dir}/launch4j.jar:${launch4j.dir}/lib/xstream.jar" 
-        />
+    	<taskdef name="launch4j"
+    	    classname="net.sf.launch4j.ant.Launch4jTask"
+    	    classpath="/usr/share/launch4j/launch4j.jar
+    	        :/usr/share/launch4j/lib/xstream.jar" />
         <launch4j>
           <config 
                headerType="console" 
@@ -349,7 +350,7 @@
         <copy file="${basedir}/refine" tofile="${linux.dir}/refine"/>
         
         <mkdir dir="${dist.dir}"/>
-        <tar longfile="gnu" compression="gzip" destfile="${dist.dir}/google-refine-${version}-${revision}.tar.gz">
+        <tar longfile="gnu" compression="gzip" destfile="${dist.dir}/lod2-google-refine-${version}-${revision}.tar.gz">
            <tarfileset dir="${linux.dir}/.." filemode="755">
                <include name="${release.name}/refine"/>
            </tarfileset>        
