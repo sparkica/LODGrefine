@@ -43,5 +43,3 @@ String.format = function format(string) {
         return args[index];
       });
 };
-
-
