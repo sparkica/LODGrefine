@@ -1,8 +1,10 @@
 *.DS_Store
+velocity.log
 .import-temp/
 .svn/
 build/
 dist/
+test-output/
 server/classes/
 main/webapp/WEB-INF/classes/
 main/tests/server/classes/
@@ -12,7 +14,13 @@ tools/
 extensions/sample-extension/module/MOD-INF/classes/
 extensions/jython/module/MOD-INF/classes/
 extensions/jython/module/MOD-INF/lib/cachedir/
-extensions/rdf-exporter/module/MOD-INF/classes/
+extensions/freebase/module/MOD-INF/classes/
+extensions/gdata/module/MOD-INF/classes/
+extensions/jython/module/MOD-INF/lib/jython/os$py.class
+extensions/jython/module/MOD-INF/lib/jython/posixpath$py.class
+extensions/jython/module/MOD-INF/lib/jython/stat$py.class
+extensions/pc-axis/module/MOD-INF/classes/
+extensions/sample/module/MOD-INF/classes/
 broker/appengine/module/MOD-INF/classes/
 broker/core/module/MOD-INF/classes/
 broker/core/WEB-INF/lib/
