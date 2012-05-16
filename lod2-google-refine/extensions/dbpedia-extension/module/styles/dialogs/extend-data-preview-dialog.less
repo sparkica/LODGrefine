@@ -33,6 +33,31 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 @import-less url("../theme.less");
 
+.extend-data-preview-dialog .db-suggested-property-container {
+  border: 1px solid #345;
+  padding: 2px;
+  overflow: auto;
+  height: 375px;
+}
+
+.extend-data-preview-dialog .db-suggested-property {
+  padding: 2px;
+}
+
+.extend-data-preview-dialog .db-preview-container {
+  border: 1px solid #345;
+  overflow: auto;
+}
+
+.extend-data-preview-dialog .db-preview-container table {
+  border-collapse: collapse;
+}
+
+.db-extend-data-preview-dialog .db-preview-container td, .db-extend-data-preview-dialog .db-preview-container th {
+  padding: 3px 5px;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
 
 .extend-data-preview-dialog .preview-container {
   border: 1px solid #003300;
@@ -51,8 +76,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 	padding-top: 2px;
 }
   
-.original-text {
-	padding-bottom:5px;
+#original-text {
+	padding:4px;
+	height: 120px;
+	border:1px solid #ccc;
+	margin-bottom: 5px;
 }
 
 .extend-data-preview-dialog .preview-container table {
@@ -75,12 +103,9 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   margin-left: 5px;
   }
 
- .extracted-types input {
-  vertical-align: middle; margin-top: -1px;
-  }
-  
+ 
   #entities {
-  	max-height: 150px;
+  	max-height: 100px;
   }
   
   #entities ul {
@@ -88,12 +113,21 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   }
   
   #entities ul li {
-	margin: 2px;
-	padding: 2px;
+	margin: 1px;
+	padding: 1px;
   }
   #types .all-types-label {
-  	font-weight: bold;
-  	color: green;
+    font-weight: bold;
+    display:inline;
+    margin-left:1px;
+    padding-left: 2px;
+
+  }
+  
+  #types .entity-type {
+  display: inline;
+  margin-left:1px;
+  padding-left: 2px;
   }
   
  .tooltip {

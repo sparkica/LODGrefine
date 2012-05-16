@@ -300,15 +300,18 @@ function init() {
     module,
     [
       
-      "externals/jquery-1.4.2.min.js",
+      "externals/jquery-1.7.2.min.js",
       "externals/jquery.cookie.js",
       "externals/jquery.eventstack-0.3.js",
       "externals/jquery-ui/jquery-ui-1.8.custom.min.js",
-      "externals/date.js",
+      "externals/bootstrap/js/bootstrap.js",      
       
+      "externals/date.js",
+
       "externals/CFInstall.min.js",
       "scripts/chrome-frame.js",
-
+      
+      
       "scripts/util/misc.js",
       "scripts/util/url.js",
       "scripts/util/string.js",
@@ -345,6 +348,8 @@ function init() {
     module,
     [
       "externals/jquery-ui/css/ui-lightness/jquery-ui-1.8.custom.css",
+      "externals/bootstrap/css/bootstrap.css",
+      "externals/bootstrap/css/bootstrap-responsive.css",
       "styles/jquery-ui-overrides.less",
       "styles/common.less",
       "styles/pure.css",
@@ -372,6 +377,8 @@ function init() {
     "project/scripts",
     module,
     [
+     "externals/bootstrap/js/bootstrap.js",
+
       "externals/jquery-1.4.2.min.js",
       "externals/jquery.cookie.js",
       "externals/jquery.eventstack-0.3.js",
@@ -442,6 +449,9 @@ function init() {
       "externals/suggest/css/suggest-1.2.1.min.css",
       "externals/jquery-ui/css/ui-lightness/jquery-ui-1.8.custom.css",
       "externals/imgareaselect/css/imgareaselect-default.css",
+      
+      "externals/bootstrap/css/bootstrap.css",
+      "externals/bootstrap/css/bootstrap-responsive.css",
 
       "styles/jquery-ui-overrides.less",
       "styles/common.less",
@@ -477,6 +487,8 @@ function init() {
     "preferences/scripts",
     module,
     [
+     "externals/bootstrap/js/bootstrap.js",
+
       "externals/jquery-1.4.2.min.js",
       "externals/jquery.cookie.js",
       "externals/suggest/suggest-1.2.min.js",
@@ -492,6 +504,9 @@ function init() {
     [
       "externals/suggest/css/suggest-1.2.min.css",
       "externals/jquery-ui/css/ui-lightness/jquery-ui-1.8.custom.css",
+      "externals/bootstrap/css/bootstrap.css",
+      "externals/bootstrap/css/bootstrap-responsive.css",
+
       "styles/jquery-ui-overrides.less",
       "styles/common.less",
       "styles/pure.css",

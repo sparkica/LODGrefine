@@ -167,7 +167,7 @@ ZemantaExtractEntitiesPreviewDialog.prototype._show = function(entities) {
 	  $.each(types, function(index, value) {
 		  var input = $('<input type="checkbox" class="zem-type" value="' + value + 
 				  '" id="' + "chk_" + chkid+'">').appendTo(elem);
-		  $('<label for=""' + "chk_" + chkid + '>' + value + '</label>').appendTo(elem);
+		  $('<label class="entity-type" for="chk_' + chkid + '">' + value + '</label>').appendTo(elem);
 		  $('<br/>').appendTo(elem);
 		  chkid++;
 		  

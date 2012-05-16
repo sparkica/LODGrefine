@@ -136,7 +136,7 @@ Refine.OpenProjectUI.prototype._renderProjects = function(data) {
       .attr("title","Delete this project")
       .attr("href","")
       .css("visibility", "hidden")                
-      .html("<img src='/images/close.png' />")
+      .html("delete")
       .click(function() {
         if (window.confirm("Are you sure you want to delete project \"" + project.name + "\"?")) {
           $.ajax({

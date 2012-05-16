@@ -130,10 +130,14 @@ ZemantaExtendDataPreviewDialog.prototype._show = function(properties) {
   var renderSuggestedProperty = function(property) {
     var label = ("properties" in property) ? (property.name + " &raquo; " + 
     		property.properties[0].name) : property.name;
-    var div = $('<div>').addClass("suggested-property").appendTo(container);
+    var id = ("properties" in property) ? (property.id + " &raquo; " + 
+    		property.properties[0].id) : property.id;
+    var div = $('<div>').addClass("db-suggested-property").appendTo(container);
 
     $('<a>')
     .attr("href", "javascript:{}")
+    .attr("rel","tooltip")
+    .attr("title","id")
     .html(label)
     .appendTo(div)
     .click(function() {
@@ -214,7 +218,7 @@ ZemantaExtendDataPreviewDialog.prototype._renderPreview = function(data) {
     return;
   }
 
-  var table = $('<table>')[0];
+  var table = $('<table class="table-striped">')[0];
   var trHead = table.insertRow(table.rows.length);
   $('<th>').appendTo(trHead).text(this._column.name);
 
