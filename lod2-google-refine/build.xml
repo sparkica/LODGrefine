@@ -14,7 +14,7 @@
     <property environment="env"/>
 
     <property name="version" value="trunk"/>
-    <property name="revision" value="r0001"/>
+    <property name="revision" value="rXXXX"/>
     <property name="full_version" value="0.0.0.1"/>
     <property name="build.dir" value="build"/>
     <property name="dist.dir" value="dist"/>
@@ -259,8 +259,8 @@
         <mkdir dir="${windows.dir}"/>
     	<taskdef name="launch4j"
     	    classname="net.sf.launch4j.ant.Launch4jTask"
-    	    classpath="/usr/share/launch4j/launch4j.jar
-    	        :/usr/share/launch4j/lib/xstream.jar" />
+    	    classpath="c:\\Program Files (x86)\\Launch4j\\launch4j.jar
+    	        :c:\\Program Files (x86)\\Launch4j\\lib/xstream.jar" />
         <launch4j>
           <config 
                headerType="console" 
