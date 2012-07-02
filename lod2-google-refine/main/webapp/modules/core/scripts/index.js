@@ -65,7 +65,8 @@ $(function() {
     var thisRev = parseInt(revision_pattern.exec(thisRevision)[1],10);
     var latestRev = parseInt(revision_pattern.exec(GoogleRefineReleases.releases[0].revision)[1],10);
 
-    return latestRev > thisRev;
+    //return latestRev > thisRev;
+    return false;
   };
 
   var showVersion = function() {
@@ -84,7 +85,7 @@ $(function() {
 
           var poll = function() {
             if ("releases" in window) {
-              if (isThereNewRelease()) {
+             if (isThereNewRelease()) {
                 var container = $('<div id="notification-container">')
                 .appendTo(document.body);
                 var notification = $('<div id="notification">')
