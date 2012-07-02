@@ -15,11 +15,8 @@
 
     <property name="version" value="trunk"/>
     <property name="revision" value="rXXXX"/>
-<<<<<<< HEAD
     <property name="full_version" value="0.0.0.1"/>
-=======
     <property name="full_version" value="0.0.0.0"/>
->>>>>>> ab3abaf23666d6a633b0722828ec0c9bd68e7fdf
     <property name="build.dir" value="build"/>
     <property name="dist.dir" value="dist"/>
 
