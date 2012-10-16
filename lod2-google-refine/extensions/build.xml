@@ -15,7 +15,7 @@
     <ant dir="gdata/" target="build" />
     <ant dir="pc-axis/" target="build" />
     <ant dir="dbpedia-extension/" target="build" />
-  </target>
+</target>
 
   <target name="clean">
     <echo message="cleaning extensions" />

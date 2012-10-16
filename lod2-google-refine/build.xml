@@ -2,7 +2,7 @@
 
 <!--+
     |
-    |  Google Refine Build File
+    |  LOD2 Google Refine Build File
     |
     +-->
     
@@ -14,9 +14,8 @@
     <property environment="env"/>
 
     <property name="version" value="trunk"/>
-    <property name="revision" value="rXXXX"/>
-    <property name="full_version" value="0.0.0.1"/>
-    <property name="full_version" value="0.0.0.0"/>
+    <property name="revision" value="r0001"/>
+    <property name="full_version" value="1.0.0.0"/>
     <property name="build.dir" value="build"/>
     <property name="dist.dir" value="dist"/>
 
@@ -282,7 +281,7 @@
                 copyright="Copyright (c) 2010, Google, Inc."
                 productVersion="${full_version}"
                 txtProductVersion="${full_version}"
-                productName="Google Refine"
+                productName="LODGrefine"
                 companyName="Google, Inc."
                 internalName="google-refine"
                 originalFilename="google-refine.exe" 
@@ -320,7 +319,7 @@
         <copy file="${basedir}/LICENSE.txt" tofile="${windows.dir}/LICENSE.txt"/>
         
         <mkdir dir="${dist.dir}"/>
-        <zip destfile="${dist.dir}/google-refine-${version}-${revision}.zip" basedir="${windows.dir}/.." includes="${release.name}/**"/>
+        <zip destfile="${dist.dir}/lod-grefine-${version}-${revision}.zip" basedir="${windows.dir}/.." includes="${release.name}/**"/>
     </target>
     
     <target name="linux" depends="jar, prepare_webapp">

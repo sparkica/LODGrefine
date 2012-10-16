@@ -214,9 +214,12 @@ get_revision() {
     if [ -d ".svn" ] ; then
         INFO=`svn info`
     elif [ -d ".git" ] ; then
-        INFO=`git svn info`
+        #INFO=`git svn info`
+	INFO=`git tag`
+	echo "git..."
     else
-        error "cannot obtain revision, exiting!"
+        #error "cannot obtain revision, exiting!"
+	INFO=`info`
     fi
 
     REVISION=`echo $INFO | sed 's/.*Revision: /r/' | sed 's/ .*//'`
@@ -461,7 +464,7 @@ dist() {
     echo "with"
     echo 
     echo "    {"
-    echo "        \"description\": \"Google Refine ${VERSION}\","
+    echo "        \"description\": \"LOD2 Google Refine ${VERSION}\","
     echo "        \"version\": \"${VERSION}\","
     echo "        \"revision\": \"${REVISION}\""
     echo "    },"
@@ -541,12 +544,12 @@ mac_dist() {
     sync
     hdiutil detach $DEVICE
     
-    if [ -f "$REFINE_DIST_DIR/google-refine-$VERSION-$REVISION.dmg" ] ; then
-        rm "$REFINE_DIST_DIR/google-refine-$VERSION-$REVISION.dmg"
+    if [ -f "$REFINE_DIST_DIR/lod2-google-refine-$VERSION-$REVISION.dmg" ] ; then
+        rm "$REFINE_DIST_DIR/lod2-google-refine-$VERSION-$REVISION.dmg"
     fi
     
-    hdiutil convert "$REFINE_BUILD_DIR/temp_refine.dmg" -format UDZO -imagekey zlib-level=9 -o "$REFINE_DIST_DIR/google-refine-$VERSION-$REVISION.dmg" || error "Error compressing DMG"
-    hdiutil internet-enable -yes "$REFINE_DIST_DIR/google-refine-$VERSION-$REVISION.dmg" || error "Error internet-enabling DMG"
+    hdiutil convert "$REFINE_BUILD_DIR/temp_refine.dmg" -format UDZO -imagekey zlib-level=9 -o "$REFINE_DIST_DIR/lod2-google-refine-$VERSION-$REVISION.dmg" || error "Error compressing DMG"
+    hdiutil internet-enable -yes "$REFINE_DIST_DIR/lod2-google-refine-$VERSION-$REVISION.dmg" || error "Error internet-enabling DMG"
     
     rm -f "$REFINE_BUILD_DIR/temp_refine.dmg"
 }
