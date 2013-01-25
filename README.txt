@@ -1,6 +1,12 @@
                            L O D 2   G o o g l e   R e f i n e
                                ---------------------------
-                               
+
+*IMPORTANT NOTICE*: LODGrefine (based on Google Refine) has been migrated to LODRefine (based on OpenRefine) 
+and will be no longer maintained here. Please checkout (and clone/fork) LODRefine here: 
+sparkica/OpenRefine/tree/lodrefine
+
+
+
                                
 What is this Google Refine?
 -------------
